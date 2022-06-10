@@ -1,36 +1,46 @@
-# List of papers
+---
+layout: default
+---
+
+
+<h2 class="page-title"> List of papers</h2>
 
 {{ site.data.paperlist.papers.size }} papers are listed. 
 
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
 {% comment %} tags:
-<span class="badge review">Review</span>
-<span class="badge robotics">Robotics</span>
-<span class="badge games">Games</span>
+<span class="badge embodied">Embodied</span>
+<span class="badge supervised">Supervised Learning</span>
+<span class="badge env">Environment</span>
+<span class="badge autotelic">Autotelic</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
 {% if yeargroup.name == "" %}
-   <h3>Undated: {{ yeargroup.size }} Papers</h3>
+   <h3 class="page-title">Undated: {{ yeargroup.size }} Papers</h3>
 {% else %}
-   <h3>{{ yeargroup.name }}: {{ yeargroup.size }} Papers</h3>
+   <h3 class="page-title" >{{ yeargroup.name }}: {{ yeargroup.size }} Papers</h3>
 {% endif %}
 <ul>
 	{% assign sortedgroup = yeargroup.items | sort:"title"  %}
 	{% for item in sortedgroup %}
 	{% if item.title %}
 	<li>
-		<details><summary><b>{{ item.title }}</b>
-		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
-		{% if item.tags contains "robotics" %}<span class="badge robotics">Robotics</span>{% endif %}
-		{% if item.tags contains "games" %}<span class="badge games">Games</span>{% endif %}
+		<details><summary><b class="paper-title">{{ item.title }}</b>
+		{% for tag in item.tags %}
+			{% if tag contains "Embodied" %}<span class="badge embodied">Embodied</span>{% endif %}
+			{% if tag contains "earning" %}<span class="badge supervised">Supervised Learning</span>{% endif %}
+			{% if tag contains "Autotelic" %}<span class="badge autotelic">Autotelic</span>{% endif %}
+			{% if tag contains "Environment" %}<span class="badge env">Env</span>{% endif %}
+		{% endfor %}
+		
 		</summary>
 		<blockquote>
 		{% if item.authors %}
-		   <h4>Authors:</h4>
+		   <h4 class="blockquote-content">Authors:</h4>
 		   <ul>
 		   {% for author in item.authors %}
 		      <li>{{ author }}</li>
@@ -39,12 +49,12 @@ You can click on each title to display more information, including authors, url 
 		{% endif %}
 
 		{% if item.abstract %}
-		   <h4>Abstract:</h4>
+		   <h4 class="blockquote-content" >Abstract:</h4>
 		   {{ item.abstract }}
 		{% endif %}
 
 		{% if item.pdfurl or item.codeurl or item.webpageurl %}
-		   <h4>Links:</h4>
+		   <h4 class="blockquote-content">Links:</h4>
 		   <ul>
 		   {% if item.pdfurl %}
 		   <li><a href="{{ item.pdfurl }}">Paper</a></li>
@@ -59,7 +69,7 @@ You can click on each title to display more information, including authors, url 
 		{% endif %}
 
 		{% if item.bibtex %}	 
-		   <h4>Bibtex:</h4>
+		   <h4 class="blockquote-content">Bibtex:</h4>
 		   <pre><code>{{ item.bibtex }}</code></pre>
 		{% endif %}
 

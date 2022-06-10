@@ -3,6 +3,9 @@ docs:
 - pagetitle: About
   url: /
 
+- pagetitle: Agents
+  url: /vygo-agents
+
 - pagetitle: Papers
   url: /papers
 
@@ -12,8 +15,5 @@ docs:
 - pagetitle: Tutorials
   url: /tutorials
 
-- pagetitle: Workshop
-  url: /workshop
-
-- pagetitle: Libraries
-  url: /libraries  
+# - pagetitle: Workshop
+#   url: /workshop

@@ -5,20 +5,20 @@
 
 .badge {
   padding: 1px 9px 2px;
-  font-size: 12.025px;
-  font-weight: bold;
+  font-size: 11px;
+  // font-weight: bold;
   white-space: nowrap;
   color: #ffffff;
   background-color: #999999;
-  -webkit-border-radius: 9px;
+  -webkit-border-radius: 8px;
   -moz-border-radius: 9px;
   border-radius: 9px;
 }
-.review {background-color: #159957;} /* full Green */
-.review:hover {background-color: #117A45;}
-.robotics {background-color: #157878;} /* mix Blue-Green */
-.robotics:hover {background-color: #116060;}
-.games {background-color: #155799;} /* full Blue */
-.games:hover {background-color: #11457A;}
-.all {background-color: #dce6f0; color: #606c71;} /* Gray */
-.all:hover {background-color: #B0B8C0; color: #606c71;}
+.env {background: none; border: 2px solid #159957; color: #159957;} /* full Green */
+.env:hover {background: none; border: 2px solid #117A45; color:#117A45;}
+.embodied {background: none; border: 2px solid #347d39; color:#347d39;}
+.embodied:hover {background: none; border: 2px solid #347d3999; color:#347d3999;}
+.supervised {background: none; border: 2px solid #539bf5; color:#539bf5;}
+.supervised:hover {background: none; border: 2px solid #539cf5a7; color:#539cf5a7;}
+.autotelic {background: none; border: 2px solid #DA5B0B; color:#DA5B0B;}
+.autotelic:hover {background: none; border: 2px solid #da5a0b87; color:#da5a0b87;}

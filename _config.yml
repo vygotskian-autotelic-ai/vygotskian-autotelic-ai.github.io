@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Quality-Diversity optimisation algorithms
-description: This webpage intends to list papers related to QD algorithms, links to tutorials and workshops, and pointers to existing implementations of QD algorithms.
+title: Vygotskian Autotelic Artificial Intelligence
+description: This webpage intends to list papers related to VAAI algorithms, links to tutorials and workshops, and pointers to existing implementations of VAAI algorithms.
 plugins:
   - jekyll-relative-links
 relative_links:

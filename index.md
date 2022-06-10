@@ -1,20 +1,24 @@
-# About
+---
+layout: default
+---
 
-A fascinating aspect of natural evolution is its ability to produce a *diversity* of organisms that are all high performing in their niche. By contrast, the main artificial evolution algorithms are focused on pure optimization, that is, finding a *single* high-performing solution. 
+<h2 class="page-title"> About </h2>
 
-Quality-Diversity optimization (or illumination) is a new type of evolutionary algorithm that aims at generating large collections of diverse solutions that are all high-performing. This concept was introduced by the ``Generative and Developmental Systems`` community between 2011 (Lehman & Stanley, 2011) and 2015 (Mouret & Clune, 2015) with the ``Novelty Search with Local Competition`` and ``MAP-Elites`` evolutionary algorithms. The main differences with multi-modal optimization algorithms are that (1) Quality Diversity typically works in the behavioral space (or feature space), and not in the genotypic space, and (2) Quality Diversity attempts to fill the whole behavior space, even if the niche is not a peak in the fitness landscape. In less than 4 years, about 70 papers have been written about quality diversity, many of them in the GECCO community (a non exhaustive list is available [here](/papers)).
+Building autonomous artificial agents able to grow open-ended repertoires of skills across their lives is one of the fundamental goals of AI. To that end, a promising developmental approach recommends the design of intrinsically motivated agents that learn new skills by generating and pursuing their own goals--<i>autotelic agents</i>. However, despite recent progress, existing algorithms still show serious limitations in terms of goal diversity, exploration, generalization or skill composition. 
 
-The collections of solutions obtained by Quality Diversity algorithms open many new applications for evolutionary computation. In robotics, it was used to create repertoires of behaviors (Cully & Mouret, 2016), to allow robots to adapt to damage in a few minutes (Cully & et al. 2015); in engineering, it can be used to propose a diversity of optimized aerodynamic shapes (Gaier & et al., 2018); they were also recently used in video games (Khalifa & et al., 2018) and for Workforce Scheduling and Routing Problems (WSRP) (Urquhart & Hart, 2018).
+Inspired by the seminal work of the developmentalist Vygotsky, we suggest the design of <i>Vygotskian autotelic agents</i> (VAAI) able to interact with others and, more importantly, able to internalize these interactions within the agent so as to transform them into <i> cognitive tools</i> supporting the development of new cognitive functions.  Indeed, most of our skills could not be learned in isolation. Formal education teaches us to reason systematically, books teach us history, and YouTube might teach us how to cook. Most importantly, our values, traditions, norms and most of our goals are cultural in essence. This knowledge, and some argue, some of our highest cognitive functions such as abstraction, compositional imagination or relational thinking, are formed through linguistic and cultural interactions with others. 
 
-# Main Contributors
-- Antoine Cully, Imperial College London.
-- Jean-Baptiste Mouret, INRIA.
-- Stephane Doncieux, Sorbonne University. 
+Therefore, Vygotskian autotelic  agents should be immersed into <i>rich socio-cultural worlds</i>, an immensely important attribute of our environment that is mostly omitted in modern AI, including deep reinforcement learning research. We focus on language especially, and how its structure and content may support the development of new cognitive functions in artificial agents, just like it does in humans. 
 
-The list of papers has been completed with references from the [list](https://github.com/DanieleGravina/divergence-and-quality-diversity) made by Daniele Gravina
+On this webpage, we provide a long [list of papers](/papers) that are connected to VAAI. A shorter list detailing implementations of trully Vygotskian Autotelic agents as well as potential techniques that could help develop them is given [here](/vygo_agents).
 
-# Contributing
+<h2 class="page-title"> Main Contributors</h2>
+- Tristan Karch, INRIA.
+- Cédric Colas, INRIA.
 
-This website is maintained by the research community. If you wish to add or change something on the website, please feel free to create a pull request that implements the changes.
-The sources of the website are available [here](https://github.com/quality-diversity/quality-diversity.github.io).
+
+<h2 class="page-title"> Contributing </h2>
+
+This website is maintained by the research community. If you wish to add or change something on the website, please feel free to create a pull request that implements the changes. []
+The sources of the website are available [here](https://github.com/vygotskian-autotelic-ai/vygotskian-autotelic-ai.github.io).
 
