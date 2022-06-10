@@ -9,7 +9,7 @@ docs:
 - pagetitle: Papers
   url: /papers
 
-- pagetitle: Related works
+- pagetitle: Background
   url: /relatedworks
 
 - pagetitle: Tutorials
