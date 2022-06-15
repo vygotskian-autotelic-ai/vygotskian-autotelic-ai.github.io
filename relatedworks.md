@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<img src="assets/img/philosophers.png" style="border-radius:2%;">
 This list of {{ site.data.relatedworks.papers.size }} papers contains inter-disciplinary background research on the subject of Vygotskian Autotelic AI. 
 
 
@@ -59,6 +58,4 @@ This list of {{ site.data.relatedworks.papers.size }} papers contains inter-disc
 </ul>
 {% endfor %}
 
-
-Foundation (vygo, clark, dennett, carruthers, bruner)
 
