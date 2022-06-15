@@ -69,3 +69,20 @@ hr{
   height: 1px !important;
   background-color:#545e6b !important;
 }
+
+blockquote{
+  color:#adbac7 !important;
+  border-left: 0.2rem solid #2d333b !important;
+}
+pre{
+  background-color: #2d333b !important;
+  border-color: #2d333b !important;
+}
+
+code{
+  
+  background:none !important;
+  background-color:#2d333b!important;
+  color:#adbac7 !important;
+  
+}
