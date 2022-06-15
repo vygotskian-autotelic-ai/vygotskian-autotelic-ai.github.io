@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<h2 class="page-title"> List of papers</h2>
+<h3 class="page-title"> List of papers</h3>
 
 This list of {{ site.data.paperlist.papers.size }} papers include algorithms leveraging the cognitive functions of language. 
 We use 5 different tags:
@@ -42,7 +42,7 @@ Click on the paper's title to display the list of authors, the abstract, a link 
 			{% if tag contains "earning" %}<span class="badge supervised">Disembodied</span>{% endif %}
 			{% if tag contains "Autotelic" %}<span class="badge autotelic">Autotelic</span>{% endif %}
 			{% if tag contains "Vygotskian" %}<span class="badge vygotskian">Vygotskian</span>{% endif %}
-			{% if tag contains "VAAI" %}<span class="badge vaai">VAAI</span>{% endif %}
+			{% if tag contains "VAAI" %} <span class="badge vaai">VAAI</span>{% endif %}
 			{% if tag contains "Environment" %}<span class="badge env">Env</span>{% endif %}
 		{% endfor %}
 		

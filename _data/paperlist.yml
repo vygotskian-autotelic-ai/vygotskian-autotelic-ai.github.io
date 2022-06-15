@@ -1,4 +1,132 @@
 papers:
+- abstract: "We propose PIGLeT: a model that learns physical commonsense knowledge\
+    \ through interaction, and then uses this knowledge to ground language. We factorize\
+    \ PIGLeT into a physical dynamics model, and a separate language model. Our dynamics\
+    \ model learns not just what objects are but also what they do: glass cups break\
+    \ when thrown, plastic ones don\u2019t. We then use it as the interface to our\
+    \ language model, giving us a unified model of linguistic form and grounded meaning.\
+    \ PIGLeT can read a sentence, simulate neurally what might happen next, and then\
+    \ communicate that result through a literal symbolic representation, or natural\
+    \ language. Experimental results show that our model effectively learns world\
+    \ dynamics, along with how to communicate them. It is able to correctly forecast\
+    \ what happens next given an English sentence over 80% of the time, outperforming\
+    \ a 100x larger, text-to-text approach by over 10%. Likewise, its natural language\
+    \ summaries of physical interactions are also judged by humans as more accurate\
+    \ than LM alternatives. We present comprehensive analysis showing room for future\
+    \ work."
+  authors:
+  - Rowan Zellers
+  - "\_Ari Holtzman"
+  - "\_Matthew Peters"
+  - "\_Roozbeh Mottaghi"
+  - "\_Aniruddha Kembhavi"
+  - "\_Ali Farhadi"
+  - "\_Yejin Choi"
+  bibtex: "@inproceedings{zellers-etal-2021-piglet,\n    title = \"{PIGL}e{T}: Language\
+    \ Grounding Through Neuro-Symbolic Interaction in a 3{D} World\",\n    author\
+    \ = \"Zellers, Rowan  and\n      Holtzman, Ari  and\n      Peters, Matthew  and\n\
+    \      Mottaghi, Roozbeh  and\n      Kembhavi, Aniruddha  and\n      Farhadi,\
+    \ Ali  and\n      Choi, Yejin\",\n    booktitle = \"Proceedings of the 59th Annual\
+    \ Meeting of the Association for Computational Linguistics and the 11th International\
+    \ Joint Conference on Natural Language Processing (Volume 1: Long Papers)\",\n\
+    \    month = aug,\n    year = \"2021\",\n    address = \"Online\",\n    publisher\
+    \ = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.acl-long.159\"\
+    ,\n    doi = \"10.18653/v1/2021.acl-long.159\",\n    pages = \"2040--2050\",\n\
+    \    abstract = \"We propose PIGLeT: a model that learns physical commonsense\
+    \ knowledge through interaction, and then uses this knowledge to ground language.\
+    \ We factorize PIGLeT into a physical dynamics model, and a separate language\
+    \ model. Our dynamics model learns not just what objects are but also what they\
+    \ do: glass cups break when thrown, plastic ones don{'}t. We then use it as the\
+    \ interface to our language model, giving us a unified model of linguistic form\
+    \ and grounded meaning. PIGLeT can read a sentence, simulate neurally what might\
+    \ happen next, and then communicate that result through a literal symbolic representation,\
+    \ or natural language. Experimental results show that our model effectively learns\
+    \ world dynamics, along with how to communicate them. It is able to correctly\
+    \ forecast what happens next given an English sentence over 80{\\%} of the time,\
+    \ outperforming a 100x larger, text-to-text approach by over 10{\\%}. Likewise,\
+    \ its natural language summaries of physical interactions are also judged by humans\
+    \ as more accurate than LM alternatives. We present comprehensive analysis showing\
+    \ room for future work.\",\n}\n"
+  pdfurl: https://aclanthology.org/2021.acl-long.159.pdf
+  tags:
+  - Embodied
+  title: "PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D\_\
+    World\n"
+  webpageurl: https://rowanzellers.com/piglet/
+  year: 2021
+- abstract: 'Navigation guided by natural language instructions presents a challenging
+    reasoning problem for instruction followers. Natural language instructions typically
+    identify only a few high-level decisions and landmarks rather than complete low-level
+    motor behaviors; much of the missing information must be inferred based on perceptual
+    context. In machine learning settings, this is doubly challenging: it is difficult
+    to collect enough annotated data to enable learning of this reasoning process
+    from scratch, and also difficult to implement the reasoning process using generic
+    sequence models. Here we describe an approach to vision-and-language navigation
+    that addresses both these issues with an embedded speaker model. We use this speaker
+    model to (1) synthesize new instructions for data augmentation and to (2) implement
+    pragmatic reasoning, which evaluates how well candidate action sequences explain
+    an instruction. Both steps are supported by a panoramic action space that reflects
+    the granularity of human-generated instructions. Experiments show that all three
+    components of this approach---speaker-driven data augmentation, pragmatic reasoning
+    and panoramic action space---dramatically improve the performance of a baseline
+    instruction follower, more than doubling the success rate over the best existing
+    approach on a standard benchmark.'
+  authors:
+  - Daniel Fried
+  - ' Ronghang Hu'
+  - ' Volkan Cirik'
+  - ' Anna Rohrbach'
+  - ' Jacob Andreas'
+  - ' Louis-Philippe Morency'
+  - ' Taylor Berg-Kirkpatrick'
+  - ' Kate Saenko'
+  - ' Dan Klein'
+  - ' Trevor Darrell'
+  bibtex: "@inproceedings{NEURIPS2018_6a81681a,\n author = {Fried, Daniel and Hu,\
+    \ Ronghang and Cirik, Volkan and Rohrbach, Anna and Andreas, Jacob and Morency,\
+    \ Louis-Philippe and Berg-Kirkpatrick, Taylor and Saenko, Kate and Klein, Dan\
+    \ and Darrell, Trevor},\n booktitle = {Advances in Neural Information Processing\
+    \ Systems},\n editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman\
+    \ and N. Cesa-Bianchi and R. Garnett},\n pages = {},\n publisher = {Curran Associates,\
+    \ Inc.},\n title = {Speaker-Follower Models for Vision-and-Language Navigation},\n\
+    \ url = {https://proceedings.neurips.cc/paper/2018/file/6a81681a7af700c6385d36577ebec359-Paper.pdf},\n\
+    \ volume = {31},\n year = {2018}\n}\n"
+  codeurl: https://github.com/ronghanghu/speaker_follower
+  pdfurl: https://proceedings.neurips.cc/paper/2018/file/6a81681a7af700c6385d36577ebec359-Paper.pdf
+  tags:
+  - Embodied
+  - ' Vygotskian'
+  title: https://proceedings.neurips.cc/paper/2018/file/6a81681a7af700c6385d36577ebec359-Paper.pdf
+  year: 2018
+- authors:
+  - Chen Yan
+  - "\_Federico Carnevale"
+  - "\_Petko Georgiev"
+  - "\_Adam Santoro"
+  - "\_Aurelia Guy"
+  - "\_Alistair Muldal"
+  - "\_Chia-Chun Hung"
+  - "\_Josh Abramson"
+  - "\_Timothy Lillicrap"
+  - "\_Gregory Wayne"
+  bibtex: "@misc{https://doi.org/10.48550/arxiv.2206.03139,\n  doi = {10.48550/ARXIV.2206.03139},\n\
+    \  \n  url = {https://arxiv.org/abs/2206.03139},\n  \n  author = {Yan, Chen and\
+    \ Carnevale, Federico and Georgiev, Petko and Santoro, Adam and Guy, Aurelia and\
+    \ Muldal, Alistair and Hung, Chia-Chun and Abramson, Josh and Lillicrap, Timothy\
+    \ and Wayne, Gregory},\n  \n  keywords = {Machine Learning (cs.LG), Artificial\
+    \ Intelligence (cs.AI), Computation and Language (cs.CL), FOS: Computer and information\
+    \ sciences, FOS: Computer and information sciences},\n  \n  title = {Intra-agent\
+    \ speech permits zero-shot task acquisition},\n  \n  publisher = {arXiv},\n  \n\
+    \  year = {2022},\n  \n  copyright = {arXiv.org perpetual, non-exclusive license}\n\
+    }\n"
+  pdfurl: https://arxiv.org/pdf/2206.03139.pdf
+  tags:
+  - Embodied
+  - ' Vygotskian'
+  title: 'Intra-agent speech permits zero-shot task acquisition
+
+    '
+  year: 2022
 - abstract: 'Reinforcement learning (RL) agents are particularly hard to train when
     rewards are sparse. One common solution is to use intrinsic rewards to encourage
     agents to explore their environment. However, recent intrinsic exploration methods
@@ -22,12 +150,11 @@ papers:
     \ with Language Abstractions}},\n  author={Jesse Mu and Victor Zhong and Roberta\
     \ Raileanu and Minqi Jiang and Noah D. Goodman and Tim Rocktaschel and Edward\
     \ Grefenstette},\n  journal={ArXiv - abs/2202.08938},\n  year={2022},\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2202.08938.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Improving Intrinsic Exploration with Language Abstractions
-  webpageurl: .nan
   year: 2022
 - abstract: 'Effective exploration is a challenge in reinforcement learning (RL).
     Novelty-based exploration methods can suffer in high-dimensional state spaces,
@@ -61,12 +188,11 @@ papers:
     \  title = {{Semantic Exploration from Language Abstractions and Pretrained Representations}},\n\
     \  journal = {ArXiv - abs/2204.05080},\n  year = {2022},\n  copyright = {arXiv.org\
     \ perpetual, non-exclusive license}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2204.05080.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Semantic Exploration from Language Abstractions and Pretrained Representations
-  webpageurl: .nan
   year: 2022
 - abstract: 'Building agents capable of understanding language instructions is critical
     to effective and robust human-AI collaboration. Recent work focuses on training
@@ -95,12 +221,11 @@ papers:
     \ Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {29529--29540},\n\
     \ publisher = {Curran Associates, Inc.},\n title = {{ELLA: Exploration through\
     \ Learned Language Abstraction}},\n volume = {34},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://papers.nips.cc/paper/2021/hash/f6f154417c4665861583f9b9c4afafa2-Abstract.html
   tags:
   - Embodied
+  - ' Vygotskian'
   title: 'ELLA: Exploration through Learned Language Abstraction'
-  webpageurl: .nan
   year: 2021
 - abstract: Large language models can encode a wealth of semantic knowledge about
     the world. Such knowledge could be extremely useful to robots aiming to act upon
@@ -180,7 +305,6 @@ papers:
     \ Xu, Peng and Xu, Sichun and Yan, Mengyuan},\n  title = {{Do As I Can, Not As\
     \ I Say: Grounding Language in Robotic Affordances}},\n  journal = {ArXiv - abs/2204.01691},\n\
     \  year = {2022},\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2204.01691.pdf
   tags:
   - Embodied
@@ -249,7 +373,6 @@ papers:
   tags:
   - Embodied
   title: Imitating Interactive Intelligence
-  webpageurl: .nan
   year: 2020
 - abstract: 'We are interested in the autonomous acquisition of repertoires of skills.
     Language-conditioned reinforcement learning (LC-RL) approaches are great tools
@@ -282,11 +405,9 @@ papers:
     \ C\xE9dric and Oudeyer, Pierre-Yves and Chetouani, Mohamed and Sigaud, Olivier},\n\
     \ journal = {Proc. of ICLR},\n title = {Grounding {Language} to {Autonomously}-{Acquired}\
     \ {Skills} {Via} {Goal} {Generation}},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2006.07185.pdf
   tags:
-  - Embodied
-  - ' Autotelic'
+  - VAAI
   title: Grounding Language to Autonomously-Acquired Skills Via Goal Generation
   webpageurl: https://sites.google.com/view/decstr/
   year: 2021
@@ -318,10 +439,9 @@ papers:
     \ Computer Vision and Pattern Recognition,\n{CVPR} 2020, Seattle, WA, USA, June\
     \ 13-19, 2020},\n publisher = {{IEEE}},\n title = {{ALFRED:} {A} Benchmark for\
     \ Interpreting Grounded Instructions for\nEveryday Tasks},\n year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1912.01734.pdf
   tags:
-  - Environment
+  - Embodied
   title: 'ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday
     Tasks'
   webpageurl: https://askforalfred.com/
@@ -349,7 +469,6 @@ papers:
   tags:
   - Embodied
   title: Graph Constrained Reinforcement Learning for Natural Language Action Spaces
-  webpageurl: .nan
   year: 2020
 - abstract: 'The named concepts and compositional operators present in natural language
     provide a rich source of information about the kinds of abstractions humans use
@@ -373,12 +492,10 @@ papers:
     Klein, Dan  and\nLevine, Sergey},\n booktitle = {Proc. of NAACL-HLT},\n publisher\
     \ = {Association for Computational Linguistics},\n title = {Learning with Latent\
     \ Language},\n year = {2018}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1711.00482.pdf
   tags:
   - Embodied
   title: Learning with Latent Language
-  webpageurl: .nan
   year: 2018
 - abstract: We describe a framework for multitask deep reinforcement learning guided
     by policy sketches. Sketches annotate tasks with sequences of named subtasks,
@@ -414,7 +531,6 @@ papers:
   - Supervised Learning
   - ' Embodied'
   title: Modular Multitask Reinforcement Learning with Policy Sketches
-  webpageurl: .nan
   year: 2017
 - abstract: Recent work has shown that deep reinforcement-learning agents can learn
     to follow language-like instructions from infrequent environment rewards. However,
@@ -444,12 +560,10 @@ papers:
     \ and\nEdward Grefenstette},\n booktitle = {Proc. of ICLR},\n publisher = {OpenReview.net},\n\
     \ title = {{Learning to Understand Goal Specifications by Modelling Reward}},\n\
     \ year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1806.01946.pdf
   tags:
   - Embodied
   title: Learning to Understand Goal Specifications by Modelling Reward
-  webpageurl: .nan
   year: 2019
 - abstract: Numerous models for grounded language understanding have been recently
     proposed, including (i) generic models that can be easily adapted to any given
@@ -478,12 +592,10 @@ papers:
     \ and\nAaron C. Courville},\n booktitle = {Proc. of ICLR},\n publisher = {OpenReview.net},\n\
     \ title = {Systematic Generalization: What Is Required and Can It Be Learned?},\n\
     \ year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1811.12889.pdf
   tags:
   - Supervised Learning
   title: 'Systematic Generalization: What Is Required and Can It Be Learned?'
-  webpageurl: .nan
   year: 2019
 - abstract: 'Language understanding research is held back by a failure to relate language
     to the physical world it describes and to the social interactions it facilitates.
@@ -517,15 +629,12 @@ papers:
     Nisnevich, Aleksandr  and\nPinto, Nicolas  and\nTurian, Joseph},\n booktitle =\
     \ {Proc. of EMNLP},\n publisher = {Association for Computational Linguistics},\n\
     \ title = {Experience Grounds Language},\n year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2004.10151.pdf
   tags:
   - Supervised Learning
   title: Experience Grounds Language
-  webpageurl: .nan
   year: 2020
-- abstract: .nan
-  authors:
+- authors:
   - Cangelosi A
   - Metta G
   - Sagerer G
@@ -544,13 +653,11 @@ papers:
     \ number = {3},\n publisher = {IEEE},\n title = {Integration of action and language\
     \ knowledge: A roadmap for developmental robotics},\n volume = {2},\n year = {2010}\n\
     }"
-  codeurl: .nan
   pdfurl: https://ieeexplore.ieee.org/document/5484436
   tags:
   - Perspective
   title: 'Integration of action and language knowledge: A roadmap for developmental
     robotics'
-  webpageurl: .nan
   year: 2010
 - abstract: Sparse reward is one of the most challenging problems in reinforcement
     learning (RL). Hindsight Experience Replay (HER) attempts to address this issue
@@ -579,13 +686,11 @@ papers:
     \ journal = {ArXiv - abs/1902.04546},\n title = {{ACTRCE}: {Augmenting} {Experience}\
     \ via {Teacher}'s {Advice} {For} {Multi}-{Goal} {Reinforcement} {Learning}},\n\
     \ year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1902.04546.pdf
   tags:
   - Embodied
   title: 'ACTRCE: Augmenting Experience via Teacher''s Advice For Multi-Goal Reinforcement
     Learning'
-  webpageurl: .nan
   year: 2019
 - abstract: To perform tasks specified by natural language instructions, autonomous
     agents need to extract semantically meaningful representations of language and
@@ -616,7 +721,6 @@ papers:
   tags:
   - Embodied
   title: Gated-Attention Architectures for Task-Oriented Language Grounding
-  webpageurl: .nan
   year: 2018
 - abstract: 'Complex, multi-task problems have proven to be difficult to solve efficiently
     in a sparse-reward reinforcement learning setting. In order to be sample efficient,
@@ -644,13 +748,11 @@ papers:
     \ Marino, Kenneth},\n journal = {Proc. of ICLR},\n title = {Ask {Your} {Humans}:\
     \ {Using} {Human} {Instructions} to {Improve} {Generalization} in {Reinforcement}\
     \ {Learning}},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2011.00517.pdf
   tags:
   - Embodied
   title: 'Ask Your Humans: Using Human Instructions to Improve Generalization in Reinforcement
     Learning'
-  webpageurl: .nan
   year: 2021
 - abstract: Allowing humans to interactively train artificial agents to understand
     language instructions is desirable for both practical and scientific reasons,
@@ -685,7 +787,6 @@ papers:
   - Environment
   title: 'Baby-Ai: First Steps Towards Grounded Language Learning with a Human in
     the Loop'
-  webpageurl: .nan
   year: 2019
 - abstract: Language creates a compact representation of the world and allows the
     description of unlimited situations and objectives through compositionality. While
@@ -713,13 +814,12 @@ papers:
     \ on {Computational} {Intelligence} ({SSCI})},\n title = {{HIGhER}: {Improving}\
     \ {Instruction} {Following} with {Hindsight} {Generation} for {Experience} {Replay}},\n\
     \ year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1910.09451.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: 'HIGhER: Improving Instruction Following with Hindsight Generation for Experience
     Replay'
-  webpageurl: .nan
   year: 2020
 - abstract: 'Behavioral skills or policies for autonomous agents are conventionally
     learned from reward functions, via reinforcement learning, or from demonstrations,
@@ -753,12 +853,10 @@ papers:
     John DeNero and\nPieter Abbeel and\nSergey Levine},\n booktitle = {Proc. of ICLR},\n\
     \ publisher = {OpenReview.net},\n title = {Guiding Policies with Language via\
     \ Meta-Learning},\n year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1811.07882.pdf
   tags:
   - Embodied
   title: Guiding Policies with Language via Meta-Learning
-  webpageurl: .nan
   year: 2019
 - abstract: 'Developmental machine learning studies how artificial agents can model
     the way children learn open-ended repertoires of skills. Such agents need to create
@@ -796,8 +894,7 @@ papers:
   codeurl: https://github.com/flowersteam/Imagine
   pdfurl: https://arxiv.org/pdf/2002.09253.pdf
   tags:
-  - Embodied
-  - ' Autotelic'
+  - VAAI
   title: Language as a Cognitive Tool to Imagine Goals in Curiosity Driven Exploration
   webpageurl: https://colab.research.google.com/drive/1G9LmvhbvR40XJ-cysgP6zynBnq_fHY63#scrollTo=HmGFArOeXvps
   year: 2020
@@ -839,7 +936,6 @@ papers:
   tags:
   - Environment
   title: 'TextWorld: A Learning Environment for Text-Based Games'
-  webpageurl: .nan
   year: 2018
 - abstract: 'We present a new AI task -- Embodied Question Answering (EmbodiedQA)
     -- where an agent is spawned at a random location in a 3D environment and asked
@@ -862,7 +958,6 @@ papers:
     \ and\nGeorgia Gkioxari and\nStefan Lee and\nDevi Parikh and\nDhruv Batra},\n\
     \ journal = {Proc. of CVPR},\n title = {Embodied Question Answering},\n year =\
     \ {2018}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1711.11543.pdf
   tags:
   - Embodied
@@ -893,13 +988,11 @@ papers:
     \ and\nSergey Levine and\nSergio Guadarrama},\n booktitle = {Proc. of ICLR},\n\
     \ publisher = {OpenReview.net},\n title = {From Language to Goals: Inverse Reinforcement\
     \ Learning for Vision-Based\nInstruction Following},\n year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1902.07742.pdf
   tags:
   - Embodied
   title: 'From Language to Goals: Inverse Reinforcement Learning for Vision-Based
     Instruction Following'
-  webpageurl: .nan
   year: 2019
 - abstract: Recent reinforcement learning (RL) approaches have shown strong performance
     in complex domains such as Atari games, but are often highly sample inefficient.
@@ -927,12 +1020,11 @@ papers:
     \ 10-16,\n2019},\n editor = {Sarit Kraus},\n publisher = {ijcai.org},\n title\
     \ = {Using Natural Language for Reward Shaping in Reinforcement Learning},\n year\
     \ = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1903.02020.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Using Natural Language for Reward Shaping in Reinforcement Learning
-  webpageurl: .nan
   year: 2019
 - abstract: We are increasingly surrounded by artificially intelligent technology
     that takes decisions and executes actions on our behalf. This creates a pressing
@@ -974,12 +1066,10 @@ papers:
     \ Teplyashin, Denis and Wainwright, Marcus and Apps, Chris and Hassabis, Demis\
     \ and Blunsom, Phil},\n journal = {ArXiv - abs/1706.06551},\n title = {Grounded\
     \ {Language} {Learning} in a {Simulated} {3D} {World}},\n year = {2017}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1706.06551.pdf
   tags:
   - Embodied
   title: Grounded Language Learning in a Simulated 3D World
-  webpageurl: .nan
   year: 2017
 - abstract: 'The question of whether deep neural networks are good at generalising
     beyond their immediate training experience is of critical importance for learning-based
@@ -1015,7 +1105,6 @@ papers:
   tags:
   - Embodied
   title: Emergent Systematic Generalization in a Situated Agent
-  webpageurl: .nan
   year: 2019
 - abstract: 'Recent work has described neural-network-based agents that are trained
     with reinforcement learning (RL) to execute language-like commands in simulated
@@ -1046,13 +1135,11 @@ papers:
     \ journal = {ArXiv - abs/2005.09382},\n title = {Human {Instruction}-{Following}\
     \ with {Deep} {Reinforcement} {Learning} via {Transfer}-{Learning} from {Text}},\n\
     \ year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2005.09382.pdf
   tags:
   - Embodied
   title: Human Instruction-Following with Deep Reinforcement Learning via Transfer-Learning
     from Text
-  webpageurl: .nan
   year: 2020
 - abstract: We explore using latent natural language instructions as an expressive
     and compositional representation of complex actions for hierarchical decision
@@ -1079,9 +1166,9 @@ papers:
   pdfurl: https://proceedings.neurips.cc/paper/2019/file/7967cc8e3ab559e68cc944c44b1cf3e8-Paper.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Hierarchical Decision Making by Generating and Following Natural Language
     Instructions
-  webpageurl: .nan
   year: 2019
 - abstract: "Can world knowledge learned by large language models (LLMs) be used to\
     \ act in interactive environments? In this paper, we investigate the possibility\
@@ -1107,7 +1194,6 @@ papers:
     \ and Pathak, Deepak and Mordatch, Igor},\n journal = {ArXiv - abs/2201.07207},\n\
     \ title = {Language Models as Zero-Shot Planners: Extracting Actionable Knowledge\
     \ for Embodied Agents},\n year = {2022}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2201.07207.pdf
   tags:
   - Embodied
@@ -1132,12 +1218,10 @@ papers:
     Narasimhan, Karthik  and\nBarzilay, Regina},\n journal = {Transactions of the\
     \ Association for Computational Linguistics},\n title = {{Representation Learning\
     \ for Grounded Spatial Reasoning}},\n year = {2018}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1707.03938.pdf
   tags:
   - Embodied
   title: Representation Learning for Grounded Spatial Reasoning
-  webpageurl: .nan
   year: 2018
 - abstract: Solving complex, temporally-extended tasks is a long-standing problem
     in reinforcement learning (RL). We hypothesize that one critical element of solving
@@ -1171,8 +1255,8 @@ papers:
   pdfurl: https://proceedings.neurips.cc/paper/2019/file/0af787945872196b42c9f73ead2565c8-Paper.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Language as an Abstraction for Hierarchical Deep Reinforcement Learning
-  webpageurl: .nan
   year: 2019
 - abstract: 'Language is an interface to the outside world. In order for embodied
     agents to use it, language must be grounded in other, sensorimotor modalities.
@@ -1210,7 +1294,6 @@ papers:
   tags:
   - Embodied
   title: Grounding Spatio-Temporal Language with Transformers
-  webpageurl: .nan
   year: 2021
 - abstract: Reinforcement learning (RL), particularly in sparse reward settings, often
     requires prohibitively large numbers of interactions with the environment, thereby
@@ -1235,13 +1318,11 @@ papers:
     \  eprinttype = {arXiv},\n  eprint    = {2007.15543},\n  timestamp = {Mon, 03\
     \ Aug 2020 14:32:13 +0200},\n  biburl    = {https://dblp.org/rec/journals/corr/abs-2007-15543.bib},\n\
     \  bibsource = {dblp computer science bibliography, https://dblp.org}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2007.15543.pdf
   tags:
   - Embodied
   title: 'PixL2R: Guiding Reinforcement Learning Using Natural Language by Mapping
     Pixels to Rewards'
-  webpageurl: .nan
   year: 2020
 - abstract: "Progress in Reinforcement Learning (RL) algorithms goes hand-in-hand\
     \ with the development of challenging environments that test the limits of current\
@@ -1277,9 +1358,8 @@ papers:
   codeurl: https://github.com/facebookresearch/nle
   pdfurl: https://arxiv.org/pdf/2006.13760.pdf
   tags:
-  - Environment
+  - Embodied
   title: The NetHack Learning Environment
-  webpageurl: .nan
   year: 2020
 - abstract: Inferring the abstract relational and causal structure of the world is
     a major challenge for reinforcement-learning (RL) agents. For humans, language--particularly
@@ -1314,12 +1394,11 @@ papers:
     \ X. and Hill, Felix},\n journal = {ArXiv - abs/2112.03753},\n title = {Tell {Me}\
     \ {Why}! -- {Explanations} {Support} {Learning} of {Relational} and {Causal} {Structure}},\n\
     \ year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2112.03753.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Tell Me Why! -- Explanations Support Learning of Relational and Causal Structure
-  webpageurl: .nan
   year: 2021
 - abstract: To be successful in real-world tasks, Reinforcement Learning (RL) needs
     to exploit the compositional, relational, and hierarchical structure of the world,
@@ -1348,12 +1427,10 @@ papers:
     \ on\nArtificial Intelligence, {IJCAI} 2019, Macao, China, August 10-16,\n2019},\n\
     \ editor = {Sarit Kraus},\n publisher = {ijcai.org},\n title = {A Survey of Reinforcement\
     \ Learning Informed by Natural Language},\n year = {2019}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/1906.03926.pdf
   tags:
   - Survey
   title: A Survey of Reinforcement Learning Informed by Natural Language
-  webpageurl: .nan
   year: 2019
 - abstract: "Natural language is perhaps the most flexible and intuitive way for humans\
     \ to communicate tasks to a robot. Prior work in imitation learning typically\
@@ -1384,7 +1461,6 @@ papers:
   bibtex: "@article{lynch_grounding_2020,\n  title={Language conditioned imitation\
     \ learning over unstructured data},\n  author={Lynch, Corey and Sermanet, Pierre},\n\
     \  journal={ArXiv - abs/2005.07648},\n  year={2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2005.07648.pdf
   tags:
   - Embodied
@@ -1427,12 +1503,10 @@ papers:
     \ Zheng and\nAlexandros Papangelis and\nDian Yu and\nChandra Khatri and\nG{\\\"\
     {o}}khan T{\\\"{u}}r},\n journal = {Proc. of IJCAI},\n title = {Exploration Based\
     \ Language Learning for Text-Based Games},\n year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2001.08868.pdf
   tags:
   - Embodied
   title: Exploration Based Language Learning for Text-Based Games
-  webpageurl: .nan
   year: 2020
 - abstract: In this paper, we consider the task of learning control policies for text-based
     games. In these games, all interactions in the virtual world are through text
@@ -1452,12 +1526,10 @@ papers:
     Kulkarni, Tejas  and\nBarzilay, Regina},\n journal = {Proc. of EMNLP},\n title\
     \ = {{Language Understanding for Text-based Games using Deep Reinforcement Learning}},\n\
     \ year = {2015}\n}"
-  codeurl: .nan
   pdfurl: https://aclanthology.org/D15-1001.pdf
   tags:
   - Embodied
   title: Language Understanding for Text-based Games using Deep Reinforcement Learning
-  webpageurl: .nan
   year: 2015
 - abstract: 'We present a novel interactive learning protocol that enables training
     request-fulfilling agents by verbally describing their activities. Unlike imitation
@@ -1487,7 +1559,6 @@ papers:
   tags:
   - Embodied
   title: Interactive Learning from Activity Description
-  webpageurl: .nan
   year: 2021
 - abstract: 'Interaction and navigation defined by natural language instructions in
     dynamic environments pose significant challenges for neural agents. This paper
@@ -1514,7 +1585,6 @@ papers:
   tags:
   - Embodied
   title: Episodic Transformer for Vision-and-Language Navigation
-  webpageurl: .nan
   year: 2021
 - abstract: 'In the quest for autonomous agents learning open-ended repertoires of
     skills, most works take a Piagetian perspective: learning trajectories are the
@@ -1549,7 +1619,6 @@ papers:
   - ' Autotelic'
   title: 'Help Me Explore: Minimal Social Interventions for Graph-Based Autotelic
     Agents'
-  webpageurl: .nan
   year: 2022
 - abstract: We propose the Neuro-Symbolic Concept Learner (NS-CL), a model that learns
     visual concepts, words, and semantic parsing of sentences without explicit supervision
@@ -1584,7 +1653,6 @@ papers:
   - Supervised Learning
   title: 'The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences
     from Natural Supervision'
-  webpageurl: .nan
   year: 2019
 - abstract: Large language models (LLMs) have been shown to be capable of impressive
     few-shot generalisation to new tasks. However, they still tend to perform poorly
@@ -1611,13 +1679,11 @@ papers:
     \ Large Language Models for Interpretable Logical Reasoning}},\n  author={Creswell,\
     \ Antonia and Shanahan, Murray and Higgins, Irina},\n  journal={ArXiv - abs/2205.09712},\n\
     \  year={2022}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2205.09712.pdf
   tags:
   - Supervised Learning
   title: 'Selection-Inference: Exploiting Large Language Models for Interpretable
     Logical Reasoning'
-  webpageurl: .nan
   year: 2022
 - abstract: Language embeds information about social, cultural, and political values
     people hold. Prior work has explored social and potentially harmful biases encoded
@@ -1642,7 +1708,6 @@ papers:
   tags:
   - Supervised Learning
   title: Probing Pre-Trained Language Models for Cross-Cultural Differences in Values
-  webpageurl: .nan
   year: 2022
 - abstract: Artificial writing is permeating our lives due to recent advances in large-scale,
     transformer-based language models (LMs) such as BERT, its variants, GPT-2/3, and
@@ -1679,7 +1744,6 @@ papers:
   - Supervised Learning
   title: Large Pre-Trained Language Models Contain Human-Like Biases of What Is Right
     and Wrong to Do
-  webpageurl: .nan
   year: 2022
 - abstract: We present a framework for learning hierarchical policies from demonstrations,
     using sparse natural language annotations to guide the discovery of reusable skills
@@ -1703,12 +1767,11 @@ papers:
   bibtex: "@article{sharma2021skill,\n journal = {ArXiv - abs/2110.01517},\n author\
     \ = {Pratyusha Sharma and Antonio Torralba and Jacob Andreas},\n title = {{Skill\
     \ Induction and Planning with Latent Language}},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/abs/2110.01517
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Skill Induction and Planning with Latent Language
-  webpageurl: .nan
   year: 2021
 - abstract: "Given a simple request like Put a washed apple in the kitchen fridge,\
     \ humans can reason in purely abstract terms by imagining action sequences and\
@@ -1742,9 +1805,8 @@ papers:
   codeurl: https://github.com/alfworld/alfworld
   pdfurl: https://arxiv.org/pdf/2010.03768.pdf
   tags:
-  - Environment
+  - Embodied
   title: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
-  webpageurl: .nan
   year: 2021
 - abstract: 'Autonomous discovery and direct instruction are two distinct sources
     of learning in children but education sciences demonstrate that mixed approaches
@@ -1775,12 +1837,10 @@ papers:
     \ and Akakzia, Ahmed and Chetouani, Mohamed and Oudeyer, Pierre-Yves},\n journal\
     \ = {ArXiv - abs/2105.11977},\n title = {Towards {Teachable} {Autonomous} {Agents}},\n\
     \ year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2105.11977.pdf
   tags:
   - Perspective
   title: Towards Teachable Autonomous Agents
-  webpageurl: .nan
   year: 2021
 - abstract: 'We explore unconstrained natural language feedback as a learning signal
     for artificial agents. Humans use rich and varied language to teach, yet most
@@ -1814,7 +1874,6 @@ papers:
   tags:
   - Embodied
   title: Learning Rewards from Linguistic Feedback
-  webpageurl: .nan
   year: 2021
 - abstract: 'Training automated agents to complete complex tasks in interactive environments
     is challenging: reinforcement learning requires careful hand-engineering of reward
@@ -1848,8 +1907,8 @@ papers:
   pdfurl: https://arxiv.org/pdf/2203.11197.pdf
   tags:
   - Embodied
+  - ' Vygotskian'
   title: Teachable Reinforcement Learning via Advice Distillation
-  webpageurl: .nan
   year: 2021
 - abstract: 'The common practice for training commonsense models has gone from-human-to-corpus-to-machine:
     humans author commonsense knowledge graphs in order to train commonsense models.
@@ -1884,13 +1943,11 @@ papers:
     \ Lu, Ximing and Welleck, Sean and Choi, Yejin},\n journal = {ArXiv - abs/2110.07178},\n\
     \ title = {Symbolic {Knowledge} {Distillation}: from {General} {Language} {Models}\
     \ to {Commonsense} {Models}},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2110.07178.pdf
   tags:
   - Supervised Learning
   title: 'Symbolic Knowledge Distillation: from General Language Models to Commonsense
     Models'
-  webpageurl: .nan
   year: 2021
 - abstract: 'Inductive program synthesis, or inferring programs from examples of desired
     behavior, offers a general paradigm for building interpretable, robust, and generalizable
@@ -1912,12 +1969,10 @@ papers:
     \ and Tenenbaum, Joshua B. and Andreas, Jacob},\n journal = {ArXiv - abs/2106.11053},\n\
     \ title = {Leveraging {Language} to {Learn} {Program} {Abstractions} and {Search}\
     \ {Heuristics}},\n year = {2021}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2106.11053.pdf
   tags:
   - Supervised Learning
   title: Leveraging Language to Learn Program Abstractions and Search Heuristics
-  webpageurl: .nan
   year: 2021
 - abstract: 'Humans observe and interact with the world to acquire knowledge. However,
     most existing machine reading comprehension (MRC) tasks miss the interactive,
@@ -1952,7 +2007,6 @@ papers:
   tags:
   - Embodied
   title: Interactive Language Learning by Question Answering
-  webpageurl: .nan
   year: 2019
 - abstract: "Obtaining policies that can generalise to new environments in reinforcement\
     \ learning is challenging. In this work, we demonstrate that language understanding\
@@ -1982,7 +2036,6 @@ papers:
   tags:
   - Embodied
   title: 'RTFM: Generalising to New Environment Dynamics via Reading'
-  webpageurl: .nan
   year: 2020
 - abstract: Existing work in language grounding typically study single environments.
     How do we build unified models that apply across multiple environments? We propose
@@ -2020,7 +2073,6 @@ papers:
   tags:
   - Embodied
   title: 'SILG: The Multi-environment Symbolic Interactive Language Grounding Benchmark'
-  webpageurl: .nan
   year: 2021
 - abstract: Humans generally use natural language to communicate task requirements
     to each other. Ideally, natural language should also be usable for communicating
@@ -2044,10 +2096,8 @@ papers:
     \ and Small - 2020 - Inverse Reinforcement Learning with Natural Langua.pdf:application/pdf},\n\
     \ journal = {ArXiv - abs/2008.06924},\n title = {Inverse {Reinforcement} {Learning}\
     \ with {Natural} {Language} {Goals}},\n year = {2020}\n}"
-  codeurl: .nan
   pdfurl: https://arxiv.org/pdf/2008.06924.pdf
   tags:
   - Embodied
   title: Inverse Reinforcement Learning with Natural Language Goals
-  webpageurl: .nan
   year: 2020
