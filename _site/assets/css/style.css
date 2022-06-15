@@ -369,14 +369,13 @@ a:hover { text-decoration: underline; }
 
 .badge { padding: 1px 9px 2px; font-size: 11px; white-space: nowrap; color: #ffffff; background-color: #999999; -webkit-border-radius: 8px; -moz-border-radius: 9px; border-radius: 9px; }
 
-.env { background: none; border: 2px solid #159957; color: #159957; }
+.env { background: none; border: 2px solid #8000ff; color: #8000ff; }
 
-/* full Green */
-.env:hover { background: none; border: 2px solid #117A45; color: #117A45; }
+.env:hover { background: none; border: 2px solid #400080; color: #400080; }
 
-.embodied { background: none; border: 2px solid #347d39; color: #347d39; }
+.embodied { background: none; border: 2px solid #009900; color: #009900; }
 
-.embodied:hover { background: none; border: 2px solid #347d3999; color: #347d3999; }
+.embodied:hover { background: none; border: 2px solid #006600; color: #006600; }
 
 .supervised { background: none; border: 2px solid #539bf5; color: #539bf5; }
 
@@ -385,5 +384,9 @@ a:hover { text-decoration: underline; }
 .autotelic { background: none; border: 2px solid #DA5B0B; color: #DA5B0B; }
 
 .autotelic:hover { background: none; border: 2px solid #da5a0b87; color: #da5a0b87; }
+
+.vygotskian { background: none; border: 2px solid #cc0000; color: #cc0000; }
+
+.vygotskian:hover { background: none; border: 2px solid #990000; color: #990000; }
 
 /*# sourceMappingURL=style.css.map */
