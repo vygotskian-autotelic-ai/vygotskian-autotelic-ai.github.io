@@ -124,3 +124,6 @@ data/*
 src/data/expe/*
 src/data/lstm_checkpoints/*
 src/results/*
+
+#for github sites and jekyll
+_site/*
