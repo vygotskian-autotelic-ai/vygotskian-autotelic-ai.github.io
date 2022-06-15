@@ -2,5 +2,5 @@
 layout: default
 ---
 
-Foundation (vygo, clark, dennett, carruthers, bruner)
+<img src="assets/img/philosophers.png" style="border-radius:2%;">
 
