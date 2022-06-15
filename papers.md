@@ -5,9 +5,17 @@ layout: default
 
 <h2 class="page-title"> List of papers</h2>
 
-{{ site.data.paperlist.papers.size }} papers are listed. 
+This list of {{ site.data.paperlist.papers.size }} papers include algorithms leveraging the cognitive functions of language. 
+We use 4 different tags:
+* <span class="badge supervised">Disembodied</span> refers to disembodied agents usually based on supervised learning algorithms.
+* <span class="badge embodied">Embodied</span> refers to embodied agents usually trained with reinforcement learning algorithms.
+* <span class="badge autotelic">Autotelic</span> refers to embodied agents able to represent, generate, pursue and master their own goals (see a review [here](https://arxiv.org/abs/2012.09830)). 
+* <span class="badge vygotskian">Vygotskian</span> refers to disembodied or embodied agents that internalize social linguistic production (see details [here](https://arxiv.
+  org/abs/2206.01134)).
 
-You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
+Vygotskian Autotelic agents are embodied, Vygotskian and autotelic. 
+
+Click on the paper's title to display the list of authors, the abstract, a link to the article and the bibtex. 
 
 {% comment %} tags:
 <span class="badge embodied">Embodied</span>
@@ -32,8 +40,9 @@ You can click on each title to display more information, including authors, url 
 		<details><summary><b class="paper-title">{{ item.title }}</b>
 		{% for tag in item.tags %}
 			{% if tag contains "Embodied" %}<span class="badge embodied">Embodied</span>{% endif %}
-			{% if tag contains "earning" %}<span class="badge supervised">Supervised Learning</span>{% endif %}
+			{% if tag contains "earning" %}<span class="badge supervised">Disembodied</span>{% endif %}
 			{% if tag contains "Autotelic" %}<span class="badge autotelic">Autotelic</span>{% endif %}
+			{% if tag contains "Vygotskian" %}<span class="badge vygotskian">Vygotskian</span>{% endif %}
 			{% if tag contains "Environment" %}<span class="badge env">Env</span>{% endif %}
 		{% endfor %}
 		
