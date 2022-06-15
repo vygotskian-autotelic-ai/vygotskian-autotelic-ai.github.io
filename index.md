@@ -2,14 +2,14 @@
 layout: default
 ---
 
-
-<h2 class="page-title"> About </h2>
-
 <center>
 <a href="https://arxiv.org/abs/2206.01134" class="btn">VAAI Perspective Paper</a>
 </center>
 
 <p> </p>
+<h2 class="page-title"> About </h2>
+
+
 
 Building autonomous artificial agents able to grow open-ended repertoires of skills across their lives is one 
 of the fundamental goals of AI. To that end, a promising developmental approach recommends the design of
