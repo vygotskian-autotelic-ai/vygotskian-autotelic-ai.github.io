@@ -60,5 +60,3 @@ This list of {{ site.data.relatedworks.papers.size }} papers contains inter-disc
 {% endfor %}
 
 
-Foundation (vygo, clark, dennett, carruthers, bruner)
-

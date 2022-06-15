@@ -6,14 +6,13 @@ layout: default
 <h2 class="page-title"> List of papers</h2>
 
 This list of {{ site.data.paperlist.papers.size }} papers include algorithms leveraging the cognitive functions of language. 
-We use 4 different tags:
+We use 5 different tags:
 * <span class="badge supervised">Disembodied</span> refers to disembodied agents usually based on supervised learning algorithms.
 * <span class="badge embodied">Embodied</span> refers to embodied agents usually trained with reinforcement learning algorithms.
 * <span class="badge autotelic">Autotelic</span> refers to embodied agents able to represent, generate, pursue and master their own goals (see a review [here](https://arxiv.org/abs/2012.09830)). 
 * <span class="badge vygotskian">Vygotskian</span> refers to disembodied or embodied agents that internalize social linguistic production (see details [here](https://arxiv.
   org/abs/2206.01134)).
-
-Vygotskian Autotelic agents are embodied, Vygotskian and autotelic. 
+* <span class="badge vaai">VAAI</span> refers to **embodied**, **Vygotskian** and **autotelic** agents.
 
 Click on the paper's title to display the list of authors, the abstract, a link to the article and the bibtex. 
 
@@ -43,6 +42,7 @@ Click on the paper's title to display the list of authors, the abstract, a link 
 			{% if tag contains "earning" %}<span class="badge supervised">Disembodied</span>{% endif %}
 			{% if tag contains "Autotelic" %}<span class="badge autotelic">Autotelic</span>{% endif %}
 			{% if tag contains "Vygotskian" %}<span class="badge vygotskian">Vygotskian</span>{% endif %}
+			{% if tag contains "VAAI" %}<span class="badge vaai">VAAI</span>{% endif %}
 			{% if tag contains "Environment" %}<span class="badge env">Env</span>{% endif %}
 		{% endfor %}
 		
