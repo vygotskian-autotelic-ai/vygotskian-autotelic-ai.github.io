@@ -7,7 +7,7 @@ layout: default
 </center>
 
 <p> </p>
-<h2 class="page-title"> About </h2>
+<h3 class="page-title"> About </h3>
 
 
 
@@ -36,15 +36,14 @@ To know more, check the [perspective paper](https://arxiv.org/abs/2206.01134).
 
 
 
-On this webpage, we provide a [list of papers](/papers) connected to VAAI. A shorter list detailing implementations of trully Vygotskian Autotelic agents as well as potential 
-techniques that could help develop them is given [here](/vygo_agents).
+On this webpage, we provide a [list of papers](/papers) connected to VAAI. We also provide a list of inter-desciplinary background papers [here](/relatedworks) 
 
-<h2 class="page-title"> Main Contributors</h2>
+<h3 class="page-title"> Main Contributors</h3>
 - Tristan Karch, INRIA.
 - Cédric Colas, INRIA.
 
 
-<h2 class="page-title"> Contributing </h2>
+<h3 class="page-title"> Contributing </h3>
 
 This website is maintained by the research community. If you wish to add a reference or change something on the website, please create a pull request implementing these changes.
 The sources of the website are available [here](https://github.com/vygotskian-autotelic-ai/vygotskian-autotelic-ai.github.io).

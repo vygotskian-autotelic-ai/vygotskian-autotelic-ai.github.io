@@ -3,8 +3,8 @@ docs:
 - pagetitle: About
   url: /
 
-- pagetitle: Agents
-  url: /vygo-agents
+# - pagetitle: Agents
+#   url: /vygo-agents
 
 - pagetitle: Papers
   url: /papers

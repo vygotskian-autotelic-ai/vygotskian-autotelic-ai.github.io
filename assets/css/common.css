@@ -19,16 +19,16 @@
 
 .btn {
     background-color: #003965 !important;
-    color: white;
-    padding: 10px 20px;
+    color: white !important;
+    /* padding: 10px 20px; */
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin: 4px 2px;
+    /* margin: 4px 2px; */
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .page-title {
