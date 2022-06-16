@@ -20,7 +20,7 @@ This list of {{ site.data.background.papers.size }} papers contains inter-discip
 		<details><summary><b class="paper-title">{{ item.title }}</b></summary>
 		<blockquote>
 		{% if item.authors %}
-		   <h4 class="blockquote-content">Authors:</h4>
+		   <h4 class="blockquote-content" style="margin-top:10px;">Authors:</h4>
 		   {{item.authors}}
 		{% endif %}
 		{% if item.abstract %}

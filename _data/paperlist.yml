@@ -82,6 +82,7 @@ papers:
   year: 2018
 - authors: Chen Yan, Federico Carnevale, Petko Georgiev, Adam Santoro, Aurelia Guy,
     Alistair Muldal, Chia-Chun Hung, Josh Abramson, Timothy Lillicrap, Gregory Wayne
+  abstract: Human language learners are exposed to a trickle of informative, context-sensitive language, but a flood of raw sensory data. Through both social language use and internal processes of rehearsal and practice, language learners are able to build high-level, semantic representations that explain their perceptions. Here, we take inspiration from such processes of "inner speech" in humans (Vygotsky, 1934) to better understand the role of intra-agent speech in embodied behavior. First, we formally pose intra-agent speech as a semi-supervised problem and develop two algorithms that enable visually grounded captioning with little labeled language data. We then experimentally compute scaling curves over different amounts of labeled data and compare the data efficiency against a supervised learning baseline. Finally, we incorporate intra-agent speech into an embodied, mobile manipulator agent operating in a 3D virtual world, and show that with as few as 150 additional image captions, intra-agent speech endows the agent with the ability to manipulate and answer questions about a new object without any related task-directed experience (zero-shot). Taken together, our experiments suggest that modelling intra-agent speech is effective in enabling embodied agents to learn new tasks efficiently and without direct interaction experience.
   bibtex: "@misc{https://doi.org/10.48550/arxiv.2206.03139,\n  doi = {10.48550/ARXIV.2206.03139},\n\
     \  \n  url = {https://arxiv.org/abs/2206.03139},\n  \n  author = {Yan, Chen and\
     \ Carnevale, Federico and Georgiev, Petko and Santoro, Adam and Guy, Aurelia and\
@@ -94,9 +95,7 @@ papers:
     }\n"
   pdfurl: https://arxiv.org/pdf/2206.03139.pdf
   tags: Embodied, Vygotskian
-  title: 'Intra-agent speech permits zero-shot task acquisition
-
-    '
+  title: 'Intra-agent speech permits zero-shot task acquisition'
   year: 2022
 - abstract: 'Reinforcement learning (RL) agents are particularly hard to train when
     rewards are sparse. One common solution is to use intrinsic rewards to encourage
