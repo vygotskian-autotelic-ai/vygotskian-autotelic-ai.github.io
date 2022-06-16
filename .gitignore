@@ -127,3 +127,4 @@ src/results/*
 
 #for github sites and jekyll
 _site/*
+.jekyll-cache/*
