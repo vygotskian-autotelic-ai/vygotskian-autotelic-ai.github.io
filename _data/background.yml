@@ -1,0 +1,515 @@
+papers:
+- title: The Language and Thought of the Child
+  abstract: .nan
+  authors:
+  - Piaget J
+  pdfurl: .nan
+  year: 1926
+- abstract: .nan
+  authors:
+  - Gopnik A
+  - Meltzoff AN
+  - Kuhl PK
+  pdfurl: .nan
+  title: 'The Scientist in the Crib: Minds, Brains, and How Children Learn'
+  year: 1999
+- title: 'Constructing a Language: A Usage-Based Theory of Language Acquisition'
+  abstract: 'In this groundbreaking book, Tomasello presents a comprehensive usage-based
+  theory of language acquisition. Drawing together a vast body of empirical research
+  in cognitive science, linguistics, and developmental psychology, Tomasello demonstrates
+  that we don't need a self-contained "language instinct" to explain how children
+  learn language. Their linguistic ability is interwoven with other cognitive abilities.'
+  authors:
+  - Tomasello M
+  pdfurl: .nan
+  year: 2005
+- abstract: Many current theories of human cognition stress its biological roots,
+  while others stress its cultural roots. Tomasello demonstrates that both of these
+  perspectives are essential in creating a unified account of the evolution, history,
+  and development of human cognition. He makes a powerful case that while human
+  cognition is biologically based, this biological adaptation's key contribution
+  is that it permits the flowering of the cultural-historical and ontogenetic processes
+  that have actually made the varieties of human cognition what they are today.
+  authors:
+  - Tomasello M
+  pdfurl: .nan
+  title: The Cultural Origins of Human Cognition
+  year: 1999
+- abstract: "In speaking of play and its role in the preschooler's development, we
+are concerned with two fundamental questions: first, how play itself arises
+in development \u2014 its origin and genesis; second, the role of this developmental
+ activity, which we call play, as a form of development in the child of preschool
+ age. Is play the leading form of activity for a child of this age, or is it
+  simply the predominant form?"
+  authors:
+  - Vygotsky LS
+  pdfurl: .nan
+  title: Play and Its Role in the Mental Development of the Child
+  year: 1933
+- abstract: Since it was introduced to the English-speaking world in 1962, Lev Vygotsky's
+  highly original exploration of human mental development has become recognized
+  as a classic foundational work of cognitive science. Vygotsky analyzes the relationship
+  between words and consciousness, arguing that speech is social in its origins
+  and that only as children develop does it become internalized verbal thought.
+  authors:
+  - Vygotsky LS
+  pdfurl: .nan
+  title: Thought and Language
+  year: 1934
+- abstract: .nan
+  authors:
+  - Vygotsky LS
+  pdfurl: .nan
+  title: Tool and Symbol in Child Development
+  year: 1930
+- abstract: "Language evolution to revolution: the leap from rich-vocabulary non-recursive
+communication system to recursive language 70,000 years ago was associated with acquisition
+ of a novel component of imagination, called Prefrontal Synthesis, enabled by a mutation that
+ slowed down the prefrontal cortex maturation simultaneously in two or more children
+  – the Romulus and Remus hypothesis."
+  authors:
+  - Vyshedskiy A
+  pdfurl: https://www.biorxiv.org/content/10.1101/166520v9.full.pdf
+  title: "Language Evolution to Revolution: the Leap From Rich-Vocabulary Non-Recursive
+   Communication System to Recursive Language 70,000 Years Ago Was Associated with
+    Acquisition of a Novel Component of Imagination, Called Prefrontal Synthesis,
+     Enabled By a Mutation that Slowed Down the Prefrontal Cortex Maturation Simultaneously
+     in Two or More Children---the Romulus and Remus Hypothesis"
+  year: 2019
+- abstract: "If you could become the shadow of a 2- to 8-year-old, furtively tagging along as the child goes about his or her daily activities, you would notice a curious form of language behavior—remarks in which the child seems to talk to himself or herself or to no one in particular. This speech-to-self occurs frequently. It can surface in virtually any of the child’s pursuits—during fantasy play, drawing and painting, building with blocks, tackling academic tasks, idly passing the time of day, and quieting down before naptime or nightly sleep. Researchers call this spontaneous, self-directed talk private speech. Unlike adults, who self-consciously talk to themselves only in solitary moments, young children freely use private speech in public. So at ease are preschool and primary-school children in speaking to themselves in front of others that on observing this behavior, many adults question its normalcy! “Confused,” “touched,” and “strange” are among the descriptors I have heard them apply to self-talking children, generalizing from “crazy people,” who not only speak aloud to fantasized audiences but also act improperly in a great many ways because they are indifferent to their social surroundings. To be sure, talking to oneself in the midst of a roomful of people is not acceptable in the adult social world. Yet all of us engage in private speech from time to time. And it is ubiquitous in early childhood. When children between the ages of 3 and 10 are observed in classrooms, private speech makes up as much as 20 percent to 60 percent of their language. Why do young children engage in it so frequently? To grasp the significance of private speech in the life of the child, let’s begin by looking at it in ourselves. When are you most likely to talk out loud to yourself? In response to this question, most adults say they engage in audible self-talk when they face cognitive, emotional, or social challenges. Here are some self-reports: • “At the end of a busy day, when I’m tired and distracted, I sometimes find myself looking for an important document, for my keys, or even for where I parked my car. "
+  authors:
+  - Berk LE
+  pdfurl: .nan
+  title: Why Children Talk to Themselves
+  year: 1994
+- abstract: .nan
+  authors:
+  - Bergen BK
+  pdfurl: .nan
+  title: 'Louder Than Words: The New Science of How the Mind Makes Meaning'
+  year: 2012
+- abstract: Using words to label categories is a true human universal. In addition
+  to their public function in communication, labels may also serve private functions
+  in shaping how concepts are represented. The present work explored the effects
+  of assigning category labels on perceptual representations. A connectionist simulation
+  is presented that examines the effects of labels on learning different types of
+  categories. It is found that labels can augment perceptual information, and play
+  an especially important role in shaping representations of entities whose perceptual
+  features alone are insufficient for reliable classification.
+  authors:
+  - Lupyan G
+  pdfurl: http://sapir.psych.wisc.edu/papers/NCPW9-chapter_revised.pdf
+  title: 'Carving Nature at Its Joints and Carving Joints into Nature: How Labels Augment Category Representations'
+  year: 2005
+- abstract: "Much of human communication involves language—a system of communication qualitatively different from those used by other animals. In this chapter, I focus on a fundamental property of language: referring to objects with labels (e.g., using the word “chair” to refer to a chair). What consequences does such labeling have on cognitive and perceptual processes? I review evidence indicating that verbal labels do not simply point or refer to nonlinguistic concepts, but rather actively modulate object representations that are brought on-line during “nonverbal” tasks. Using words to refer to concrete objects affects the learning of new categories, memory for and reasoning about familiar object categories, and even basic visual processing. Object representations activated by verbal means appear to be different, and specifically, more categorical, than ostensibly the same object representations activated by nonverbal means. A connectionist model of “language augmented thought” provides a computational account of how labels may augment cognitive and perceptual processing."
+  authors:
+  - Lupyan G
+  pdfurl: http://sapir.psych.wisc.edu/papers/lupyan_2012_languageAugmentedThought.pdf
+  title: What Do Words Do? Toward a Theory of Language-Augmented Thought
+  year: 2012
+- abstract: Human cognitive abilities are remarkable. We easily go beyond what is
+  perceptually available to reason about abstract systems. Our cognitive ability
+  to adapt to a vast range of environments, and even to alter our environment to
+  suit our desires, has given our species so great an advantage over other mammals
+  that we are now poised to exterminate most of our former predators, and must use
+  our ingenuity to preserve a few. Indeed, for many theorists, the sophistication
+  of adult human reasoning defies any explanation based on learning.
+  authors:
+  - Gentner D
+  - Loewenstein J
+  pdfurl: https://loewenstein.web.illinois.edu/papers/GentnerLoewenstein02.pdf
+  title: Relational Language and Relational Thought
+  year: 2002
+- abstract: "A central question in human development is how young children gain knowledge
+ so fast. We propose that analogical generalization drives much of this early
+  learning and allows children to generate new abstractions from experience. In
+   this paper, we review evidence for analogical generalization in both children
+    and adults. We discuss how analogical processes interact with the child's
+     changing knowledge base to predict the course of learning, from conservative
+      to domain-general understanding. This line of research leads to challenges to
+       existing assumptions about learning. It shows that (a) it is not enough to consider
+        the distribution of examples given to learners; one must consider the processes
+         learners are applying; (b) contrary to the general assumption, maximizing variability
+          is not always the best route for maximizing generalization and transfer."
+  authors:
+  - Gentner D
+  - Hoyos C
+  pdfurl: https://groups.psych.northwestern.edu/gentner/papers/GentnerHoyos_2017-AnalogyAbstraction.pdf
+  title: Analogy and Abstraction
+  year: 2017
+- abstract: "The pioneering linguist Benjamin Whorf (1897---1941) grasped the relationship
+ between human language and human thinking: how language can shape our innermost
+  thoughts. His basic thesis is that our perception of the world and our ways
+   of thinking about it are deeply influenced by the structure of the languages
+    we speak. The writings collected in this volume include important papers on
+     the Maya, Hopi, and Shawnee languages as well as more general reflections on language and meaning."
+  authors:
+  - Whorf BL
+  pdfurl: .nan
+  title: 'Language, Thought, and Reality: Selected Writings of Benjamin Lee Whorf'
+  year: 1956
+- abstract: .nan
+  authors:
+  - Rumelhart DE
+  - Smolensky P
+  - McClelland JL
+  - Hinton G
+  pdfurl: https://stanford.edu/~jlmcc/papers/PDP/Chapter14.pdf
+  title: Sequential Thought Processes in Pdp Models
+  year: 1986
+- abstract: "The now-classic Metaphors We Live By changed our understanding of metaphor
+ and its role in language and the mind. Metaphor, the authors explain, is a fundamental
+  mechanism of mind, one that allows us to use what we know about our physical
+   and social experience to provide understanding of countless other subjects.
+    Because such metaphors structure our most basic understandings of our experience,
+     they are \u201Cmetaphors we live by\u201D\u2014metaphors that can shape our
+      perceptions and actions without our ever noticing them."
+  authors:
+  - Lakoff G
+  - Johnson M
+  pdfurl: .nan
+  title: Metaphors We Live By
+  year: 2008
+- abstract: .nan
+  authors:
+  - Hesse M
+  pdfurl: .nan
+  title: The Cognitive Claims of Metaphor
+  year: 1988
+- abstract: .nan
+  authors:
+  - Dennett DC
+  pdfurl: .nan
+  title: Consciousness Explained
+  year: 1993
+- abstract: 'Embodied agents use bodily actions and environmental interventions to
+make the world a better place to think in. Where does language fit into this emerging
+ picture of the embodied, ecologically efficient agent? One useful way to approach
+ this question is to consider language itself as a cognition-enhancing animal-built
+  structure. To take this perspective is to view language as a kind of self-constructed
+   cognitive niche: a persisting but never stationary material scaffolding whose
+   crucial role in promoting thought and reason remains surprisingly poorly understood.
+   It is the very materiality of this linguistic scaffolding, I suggest, that gives
+   it some key benefits. By materializing thought in words, we create structures
+   that are themselves proper objects of perception, manipulation, and (further) thought. '
+  authors:
+  - Clark A
+  pdfurl: http://matt.colorado.edu/teaching/highcog/readings/c6.pdf
+  title: Language, Embodiment, and the Cognitive Niche
+  year: 2006
+- abstract: "This paper explores a variety of different versions of the thesis that
+ natural language is involved in human thinking. It distinguishes amongst strong
+  and weak forms of this thesis, dismissing some as implausibly strong and others
+   as uninterestingly weak. Strong forms dismissed include the view that language
+    is conceptually necessary for thought (endorsed by many philosophers) and the
+     view that language is de facto the medium of all human conceptual thinking (endorsed
+      by many philosophers and social scientists). Weak forms include the view that
+       language is necessary for the acquisition of many human concepts and the view
+        that language can serve to scaffold human thought processes. The paper also
+         discusses the thesis that language may be the medium of conscious propositional
+          thinking, but argues that this cannot be its most fundamental cognitive role.
+           The idea is then proposed that natural language is the medium for nondomain-specific
+            thinking, serving to integrate the outputs of a variety of domain-specific conceptual
+             faculties (or central-cognitive "quasimodules"). Recent experimental
+              evidence in support of this idea is reviewed and the implications of the
+              idea are discussed, especially for our conception of the architecture of human cognition.
+              Finally, some further kinds of evidence which might serve to corroborate or
+              refute the hypothesis are mentioned. The overall goal of the paper is to review
+              a wide variety of accounts of the cognitive function of natural language, integrating
+              a number of different kinds of evidence and theoretical consideration in order
+              to propose and elaborate the most plausible candidate."
+  authors:
+  - Carruthers P
+  pdfurl: .nan
+  title: Modularity, Language, and the Flexibility of Thought
+  year: 2002
+- abstract: .nan
+  authors:
+  - Clark A
+  pdfurl: https://era.ed.ac.uk/bitstream/handle/1842/1311/magic.pdf?sequence=1&isAllowed=y
+  title: 'Magic Words: How Language Augments Human Computation'
+  year: 1998
+- abstract: "A growing body of evidence suggests that cognition is embodied and grounded.
+Abstract concepts, though, remain a significant theoretical challenge. A number
+ of researchers have proposed that language makes an important contribution to
+  our capacity to acquire and employ concepts, particularly abstract ones. In
+   this essay, I critically examine this suggestion and ultimately defend a version
+    of it. I argue that a successful account of how language augments cognition
+     should emphasize its symbolic properties and incorporate a view of embodiment
+      that recognizes the flexible, multimodal and task-related nature of action,
+       emotion and perception systems. On this view, language is an ontogenetically
+        disruptive cognitive technology that expands our conceptual reach. This article
+         is part of the theme issue  'Varieties of abstract concepts: development,
+          use and representation in the brain'."
+  authors:
+  - Dove G
+  pdfurl: https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2017.0135
+  title: 'Language as a Disruptive Technology: Abstract Concepts, Embodiment and the Flexible Mind'
+  year: 2018
+- abstract: "First, this article proposes a minimal definition of embodiment that can be applied across
+animals and artefacts. We discuss the potential contributions of this operational definition with respect
+to assessing and measuring the degree of embodiment in different biological and artificial systems.
+Second, we outline how this definition can be extended to lead to the particular notion of social embeddedness.
+ Socially embedded agents are structurally coupled with their social environment, in that their sensorimotor
+  activity is grounded in the social environment that the agent is surrounded by. Lastly, based on research
+  in the social sciences on human–human interaction, we discuss perceptual requirements for
+  interaction-aware robotic agents—agents whose identification and interpretation of the (social)
+   environment is facilitated by awareness of the structure of agent–agent interactions
+   (including humans ‘in the loop’). We suggest relevant concepts and heuristics that can contribute to
+   studies of degrees of embodiment of robots that interact with social environments.
+   Manipulating and systematically investigating these heuristics permits variation of the degree of
+   embodiment of such interaction-aware robots."
+  authors:
+  - Dautenhahn K
+  - Ogden B
+  - Quick T
+  pdfurl: https://d1wqtxts1xzle7.cloudfront.net/48748580/s1389-0417_2802_2900050-520160911-19986-i59edm-with-cover-page-v2.pdf?Expires=1655380273&Signature=U~u1dgegyHIhWthvy1~HPvwnv7lqa5oZuaIoz1B4oBKeuqzIJWSAM2SBkgHywYxrfRBtlnO2hk3L5ROkCdlTUM3gxx4mKDfZKZwzmdmC2PrY14p-8~bvcoyiL7n39gYOQRHF9zkckXBKAYCIuhwHe1F7U3029-Q~1iT-s2t9VWKXLaRrkLUFb53FMFwBlo3mdsvL2XgjEswtGp0EoSYSZ~R3HFIhHEJkJSId4CwsWoRiW1wDIIeHCLXm1djaT1E7Tes6c45BZ~9xLk-wuAU2Xcbujqpdi2lB1cw25HRRLNdbZX3J8jE1A968XTdmfiWl6BcLzv8j9bWPV9Q27YqkJg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+  title: "From Embodied to Socially Embedded Agents---Implications for Interaction-Aware Robots"
+  year: 2002
+- abstract: This paper proposes a research direction to study the development of 'artificial
+  social intelligence' of autonomous robots which should result in 'individualized
+  robot societies'. The approach is highly inspired by the 'social intelligence
+  hypothesis', derived from the investigation of primate societies, suggesting that
+  primate intelligence originally evolved to solve social problems and was only
+  later extended to problems outside the social domain. We suggest that it might
+  be a general principle in the evolution of intelligence, applicable to both natural
+  and artificial systems. Arguments are presented why the investigation of social
+  intelligence for artifacts is not only an interesting research issue for the study
+  of biological principles, but may be a necessary prerequisite for those scenarios
+  in which autonomous robots are integrated into human societies, interacting and
+  communicating both with humans and with each other. As a starting point to study
+  experimentally the development of robots' 'social relationships', the investigation
+  of collection and use of body images by means of imitation is proposed. A specific
+  experimental setup which we use to test the theoretical considerations is described.
+  The paper outlines in what kind of applications and for what kind of robot group
+  structures social intelligence might be advantageous.
+  authors:
+  - Dautenhahn K
+  pdfurl: https://static.aminer.org/pdf/PDF/001/049/467/getting_to_know_each_other_artificial_social_intelligence_for_autonomous.pdf
+  title: "Getting to Know Each Other---Artificial Social Intelligence for Autonomous Robots"
+  year: 1995
+- abstract: 'The paper discusses two prominent theories of cognitive development and
+relates them to experiments in social robotics. The main difference between these
+ theories lies in the different views on the relationship between a child and its
+  social environment: a) the child as a solitary thinker (Piaget) and b) the child
+   in society (Vygotsky). We discuss the implications this has on the design of socially
+    intelligent agents, focusing on robotic agents. We argue that the framework proposed
+     by Vygotsky provides a promising research direction in autonomous agents. We give
+      examples of implementations in the area of social robotics which support our theoretical
+       considerations. More specifically, we demonstrate how a teacher-learner setup
+        can be used to teach a robot a proto-language. The same control architecture is
+         also used for a humanoid doll robot which can interact with a human by imitation.
+          Another experiment addresses dynamic coupling of movements between a human and
+           a mobile robot. Here, emergent robot-human interaction dynamics are influenced
+            by the temporal coordination between the robot's and the human's movements.'
+  authors:
+  - Dautenhahn K
+  - Billard A
+  pdfurl: .nan
+  title: Studying Robot Social Cognition Within a Developmental Psychology Framework
+  year: 1999
+- abstract: "This article addresses a classical question: Can a machine use language
+ meaningfully and if so, how can this be achieved? The first part of the paper
+  is mainly philosophical. Since meaning implies intentionality on the part of
+   the language user, artificial systems which obviously lack intentionality will
+    be `meaningless' (pace e.g. Dennett). There is, however, no good reason to assume
+     that intentionality is an exclusively biological property (pace e.g. Searle)
+      and thus a robot with bodily structures, interaction patterns and development
+       similar to those of human beings would constitute a system possibly capable
+        of meaning---a conjecture supported through a Wittgenstein-inspired thought
+         experiment. The second part of the paper focuses on the empirical and constructive
+          questions. Departing from the principle of epigenesis stating that during every
+           state of development new structure arises on the basis of existing structure
+            plus various sorts of interaction, a model of human cognitive and linguistic
+             development is proposed according to which physical, social and linguistic interactions
+              between the individual and the environment have their respective peaks in three
+               consecutive stages of development: episodic, mimetic and symbolic. The transitions
+                between these stages are qualitative, and bear a similarity to the stages in
+                 phylogenesis proposed by Donald (1991) and Deacon (1997). Following the principle
+                  of epigenetic development, robotogenesis could possibly recapitulate ontogenesis,
+                   leading to the emergence of intentionality, consciousness and meaning."
+  authors:
+  - Zlatev J
+  pdfurl: http://www.chaz.org/Courses/Sapir_Whorf/Epigenesis/Epigenesis_of_Meaning-Zlatev-2001.pdf
+  title: The Epigenesis of Meaning in Human Beings, and Possibly in Robots
+  year: 2001
+- abstract: "The concept of 'social situatedness,' that is, the idea that
+ the development of individual intelligence requires a social (and cultural)
+  embedding, has recently received much attention in cognitive science and artificial
+   intelligence research, in particular work on social or epigenetic robotics.
+    The work of Lev Vygotsky, who put forward this view as early as the 1920s, has
+     influenced the discussion to some degree but still remains far from well known.
+      This article therefore is aimed at giving an overview of his cognitive development
+       theory and a discussion of its relation to more recent work in primatology and
+        socially situated artificial intelligence, in particular humanoid robotics."
+  authors:
+  - Lindblom J
+  - Ziemke T
+  pdfurl: http://apophenia.wdfiles.com/local--files/start/vygotskian%20robotics.pdf
+  title: 'Social Situatedness of Natural and Artificial Intelligence: Vygotsky and Beyond'
+  year: 2003
+- abstract: "The standard view of classical cognitive science stated that cognition
+consists in the manipulation of language-like structures according to formal
+ rules. Since cognition is  'linguistic' in itself, according to this
+  view language is just a complex communication system and does not influence
+   cognitive processes in any substantial way. This view has been criticized from
+    several perspectives and a new framework (Embodied Cognition) has emerged that
+     considers cognitive processes as non-symbolic and heavily dependent on the dynamical
+      interactions between the cognitive system and its environment. But notwithstanding
+       the successes of the embodied cognitive science in explaining low-level cognitive
+        behaviors, it is still not clear whether and how it can scale up for explaining
+         high-level cognition. In this paper we argue that this can be done by considering
+          the role of language as a cognitive tool: i.e. how language transforms basic
+           cognitive functions in the highlevel functions that are characteristic of human
+            cognition. In order to do that, we review some computational models that substantiate
+             this view with respect to categorization and memory. Since these models are
+              based on a very rudimentary form of non-syntactic  'language' we argue
+               that the use of language as a cognitive tool might have been an early discovery
+                in hominid evolution, and might have played a substantial role in the evolution
+                 of language itself."
+  authors:
+  - Mirolli M
+  - Parisi D
+  pdfurl: http://laral.istc.cnr.it/Pubblicazioni/English/Journals/2009mirolli_parisi.pdf
+  title: Language as a Cognitive Tool
+  year: 2009
+- abstract: 'This article surveys reinforcement learning approaches in social robotics.
+Reinforcement learning is a framework for decision-making problems in which
+an agent interacts through trial-and-error with its environment to discover an optimal
+behavior. Since interaction is a key component in both reinforcement learning
+ and social robotics, it can be a well-suited approach for real-world interactions
+  with physically embodied social robots. The scope of the paper is focused particularly
+  on studies that include social physical robots and real-world human-robot interactions
+   with users. We present a thorough analysis of reinforcement learning approaches
+    in social robotics. In addition to a survey, we categorize existent reinforcement
+     learning approaches based on the used method and the design of the reward mechanisms.
+      Moreover, since communication capability is a prominent feature of social robots,
+       we discuss and group the papers based on the communication medium used for reward
+       formulation. Considering the importance of designing the reward function, we also
+        provide a categorization of the papers based on the nature of the reward. This
+         categorization includes three major themes: interactive reinforcement learning,
+          intrinsically motivated methods, and task performance-driven methods. The benefits
+           and challenges of reinforcement learning in social robotics, evaluation methods
+            of the papers regarding whether or not they use subjective and algorithmic measures,
+             a discussion in the view of real-world reinforcement learning challenges and proposed
+              solutions, the points that remain to be explored, including the approaches that
+               have thus far received less attention is also given in the paper. Thus, this paper
+                aims to become a starting point for researchers interested in using and applying
+                 reinforcement learning methods in this particular research field. '
+  authors:
+  - Akalin N
+  - Loutfi A
+  pdfurl: https://mdpi-res.com/d_attachment/sensors/sensors-21-01292/article_deploy/sensors-21-01292-v2.pdf?version=1613972378
+  title: Reinforcement Learning Approaches in Social Robotics
+  year: 2021
+- abstract: Creativity is an important evolutionary adaptation that allows humans
+  to think original thoughts, to find solutions to problems that have never been
+  encountered before, and to fundamentally change the way we live. Recently, one
+  important area of creativity, namely verbal creativity, has attracted considerable
+  interest from constructionist approaches to language. The present issue builds
+  on this emerging field of study and adds an interdisciplinary perspective to it
+  by also presenting the view from cognitive literary studies as well as psychology.
+  First, however, this introduction surveys the recent issues arising in constructionist
+  studies of verbal creativity.
+  authors:
+  - Hoffmann T
+  pdfurl: https://www.degruyter.com/document/doi/10.1515/cogsem-2020-2018/pdf
+  title: 'Construction Grammar and Creativity: Evolution, Psychology, and Cognitive Science'
+  year: 2020
+- abstract: .nan
+  authors:
+  - Fodor JA
+  pdfurl: .nan
+  title: The Language of Thought
+  year: 1975
+- abstract: .nan
+  authors:
+  - Wittgenstein L
+  pdfurl: .nan
+  title: Philosophical Investigations
+  year: 1953
+- abstract: .nan
+  authors:
+  - McDowell J
+  pdfurl: .nan
+  title: Mind and World
+  year: 1996
+- abstract: 'Recent research has documented specific linkages between language and
+conceptual organization in the developing child. However, most of the evidence
+for these linkages derives from children who have made significant linguistic
+and conceptual advances. We therefore focus on the emergence of one particular
+ linkage--the noun-category linkage--in infants at the early stages of lexical
+  acquisition. We propose that when infants embark upon the process of lexical acquisition,
+   they are initially biased to interpret a word applied to an object as referring
+   to that object and to other members of its kind. We further propose that this
+    initial expectation will become increasingly specific over development, as infants
+     begin to distinguish among the grammatical categories as they are marked in their
+      native language and assign them more specific types of meaning. To test this hypothesis,
+       we conducted three experiments using a modified novelty-preference paradigm to
+        reveal whether and how novel words influence object categorization in 12- to 13-month
+         old infants. The data reveal that a linkage between words and object categories
+          emerges early enough to serve as a guide in infants'' efforts to map words to
+           meanings. Both nouns and adjectives focused infants'' attention on object categories,
+            particularly at the superordinate level. Further, infants'' progress in earl
+             word learning was associated with their appreciation of this linkage between words
+              and object categories. These results are interpreted within a developmental and
+               cross-linguistic account of the emergence of linkages between linguistic and conceptual
+                organization. '
+  authors:
+  - Waxman SR
+  - Markow DB
+  pdfurl: .nan
+  title: 'Words as Invitations to Form Categories: Evidence from 12-to 13-Month-Old Infants'
+  year: 1995
+- abstract: "Verb learning seems especially difficult for children learning many languages,
+ at least relative to nouns. Many have speculated because this is because verbs
+  refer to relational events that are components of much more complex events.
+   Consider a buying-selling event. If the child hears the verb 'buy',
+    does it mean sell, get, handover, give money, or perhaps smile? By this view,
+     a key problem in learning verb is parsing complex events into relevant components
+      and then attending to the right components. This study presents evidence that
+       parents use sound symbolism to direct children's attention to the proper
+      component and that children readily use that information when learning new verbs.
+       The study specifically compares two languages that differ in their sound-symbolic words---Japanese,
+        a language with its class of mimetics that are heavily used
+         in speech to children and English, alanguage which is commonly considered to be
+         a less sound symbolic language. The results indicate that both Japanese- and
+          English-speaking parents use sound symbolism to teach verbs and that both children
+           learning Japanese- and English benefit from this symbolism. This work provides
+           new insight into verb learning, the nature of the input, and the universal aspects
+            of sound symbolism in language use."
+  authors:
+  - Yoshida H
+  - Smith LB
+  pdfurl: https://escholarship.org/content/qt0x80838r/qt0x80838r.pdf
+  title: Sound Symbolism and Early Word Learning in Two Languages
+  year: 2003
+- abstract: Humans are unique in their range of environments and in the nature and
+  diversity of their behavioral adaptations. While a variety of local genetic adaptations
+  exist within our species, it seems certain that the same basic genetic endowment
+  produces arctic foraging, tropical horticulture, and desert pastoralism, a constellation
+  that represents a greater range of subsistence behavior than the rest of the Primate
+  Order combined. The behavioral adaptations that explain the immense success of
+  our species are cultural in the sense that they are transmitted among individuals
+  by social learning and have accumulated over generations. Understanding how and
+  when such culturally evolved adaptations arise requires understanding of both
+  the evolution of the psychological mechanisms that underlie human social learning
+  and the evolutionary (population) dynamics of cultural systems.
+  authors:
+  - Henrich J
+  - McElreath R
+  pdfurl: https://henrich.fas.harvard.edu/files/henrich/files/henrich_mcelreath_2003.pdf
+  title: The Evolution of Cultural Evolution
+  year: 2003
+- abstract: .nan
+  authors:
+  - Carruthers P
+  pdfurl: .nan
+  title: 'Thinking in Language?: Evolution and a Modularist Possibility'
+  year: 1998
+- abstract: .nan
+  authors:
+  - Sokolov A
+  pdfurl: .nan
+  title: Inner Speech and Thought
+  year: 1972

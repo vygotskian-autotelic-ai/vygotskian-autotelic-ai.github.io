@@ -2,10 +2,10 @@
 layout: default
 ---
 
-This list of {{ site.data.relatedworks.papers.size }} papers contains inter-disciplinary background research on the subject of Vygotskian Autotelic AI. 
+This list of {{ site.data.background.papers.size }} papers contains inter-disciplinary background research on the subject of Vygotskian Autotelic AI. 
 
 
-{% assign paperlist = site.data.relatedworks.papers | group_by: 'domain' | sort:"name"  %}
+{% assign paperlist = site.data.background.papers | group_by: 'domain' | sort:"name"  %}
 {% for yeargroup in paperlist %}
 {% if yeargroup.name == "" %}
 <h3 class="page-title">Undated: {{ yeargroup.size }} Papers</h3>
