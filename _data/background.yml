@@ -1,27 +1,16 @@
 papers:
-- abstract: "3rd ed. This book is for anyone who has ever wondered how a child develops\
-    \ language, thought, and knowledge. Before this classic appeared, little was known\
-    \ of the way children think. In 1923, however, Jean Piaget, the most important\
-    \ developmental psychologist of the twentieth century, took the psychological\
-    \ world by storm with The Language and Thought of the Child. Applying for the\
-    \ first time the insights of social psychology and psychoanalysis to the observation\
-    \ of children, he uncovered the ways in which a child actively constructs his\
-    \ or her understanding of the world through language. The book has since been\
-    \ a source of inspiration and guidance to generations of parents and teachers.\
-    \ While its conclusions remain contentious to this very day, few can deny the\
-    \ huge debt we owe to this pioneering work in our continuing attempts to understand\
-    \ the minds of the child \u2013 publisher's description. The functions of language\
-    \ in two children of six \u2013 Types and stages in the conversation of children\
-    \ between the ages of four and seven \u2013 Understanding and verbal explanation\
-    \ between children of the same age between the years of six and eight \u2013 Some\
-    \ peculiarities of verbal understanding in the child between the ages of nine\
-    \ and eleven \u2013 The questions of a child of six \u2013 The measure of ego-centric\
-    \ language in verbal communication between the adult and the child and in verbal\
-    \ exchanges between children."
-  authors: Piaget J
+- authors: Piaget J
   title: The Language and Thought of the Child
   year: 1926
-- abstract: "This book combines two worlds\u2014children and science\u2014in an entirely\
+  bibtex: |
+    @book{piaget2005language,
+    title={Language and Thought of the Child: Selected Works vol 5},
+    author={Piaget, Jean},
+    year={2005},
+    publisher={Routledge}}
+  domain: Psychology
+
+- abstract: "This book combines two worlds---children and science---in an entirely\
     \ unique way that yields exciting discoveries about both. The authors show that\
     \ by the time children are three, they've solved problems that stumped Socrates\
     \ with an agility computers still cannot match. This book explains just how, and\
@@ -29,11 +18,19 @@ papers:
     \ teach them. The book argues that evolution designed us to both teach and learn.\
     \ Nurture is our nature, and the drive to learn is our most important instinct.\
     \ The new science of children also reveals insights about adult capacities. The\
-    \ authors argue that even very young children\u2014as well as adults\u2014use\
+    \ authors argue that even very young children---as well as adults---use\
     \ some of the same methods that allow scientists to learn so much about the world. "
-  authors: Gopnik A,Meltzoff AN,Kuhl PK
-  title: 'The scientist in the crib: Minds, brains, and how children learn'
+  authors: Gopnik A, Meltzoff AN, Kuhl PK
+  title: 'The Scientist in the Crib: Minds, Brains, and How Children Learn'
   year: 1999
+  domain: Psychology
+  bibtex: |
+    @book{gopnik1999scientist,
+    title={The scientist in the crib: Minds, brains, and how children learn.},
+    author={Gopnik, Alison and Meltzoff, Andrew N and Kuhl, Patricia K},
+    year={1999},
+    publisher={William Morrow \& Co}}
+
 - abstract: In this groundbreaking book, Tomasello presents a comprehensive usage-based
     theory of language acquisition. Drawing together a vast body of empirical research
     in cognitive science, linguistics, and developmental psychology, Tomasello demonstrates
@@ -42,6 +39,14 @@ papers:
   authors: Tomasello M
   title: 'Constructing a Language: A Usage-Based Theory of Language Acquisition'
   year: 2005
+  domain: Psychology
+  bibtex: |
+    @book{gopnik1999scientist,
+    title={The scientist in the crib: Minds, brains, and how children learn.},
+    author={Gopnik, Alison and Meltzoff, Andrew N and Kuhl, Patricia K},
+    year={1999},
+    publisher={William Morrow \& Co}}
+
 - abstract: Many current theories of human cognition stress its biological roots,
     while others stress its cultural roots. Tomasello demonstrates that both of these
     perspectives are essential in creating a unified account of the evolution, history,
@@ -52,15 +57,35 @@ papers:
   authors: Tomasello M
   title: The Cultural Origins of Human Cognition
   year: 1999
+  domain: Psychology
+  bibtex: |
+    @book{tomasello2009cultural,
+      title={The cultural origins of human cognition},
+      author={Tomasello, Michael},
+      year={2009},
+      publisher={Harvard university press}}
+
 - abstract: "In speaking of play and its role in the preschooler's development, we\
     \ are concerned with two fundamental questions: first, how play itself arises\
-    \ in development \u2014 its origin and genesis; second, the role of this developmental\
+    \ in development---its origin and genesis; second, the role of this developmental\
     \ activity, which we call play, as a form of development in the child of preschool\
     \ age. Is play the leading form of activity for a child of this age, or is it\
     \ simply the predominant form?"
   authors: Vygotsky LS
   title: Play and Its Role in the Mental Development of the Child
   year: 1933
+  domain: Psychology
+  bibtex: |
+    @article{vygotsky1967play,
+      title={Play and its role in the mental development of the child},
+      author={Vygotsky, Lev S},
+      journal={Soviet psychology},
+      volume={5},
+      number={3},
+      pages={6--18},
+      year={1967},
+      publisher={Taylor \& Francis}}
+
 - abstract: Since it was introduced to the English-speaking world in 1962, Lev Vygotsky's
     highly original exploration of human mental development has become recognized
     as a classic foundational work of cognitive science. Vygotsky analyzes the relationship
@@ -69,9 +94,28 @@ papers:
   authors: Vygotsky LS
   title: Thought and Language
   year: 1934
+  domain: Psychology
+  bibtex: |
+    @book{vygotsky2012thought,
+      title={Thought and language},
+      author={Vygotsky, Lev S},
+      year={2012},
+      publisher={MIT press}
+    }
+
 - authors: Vygotsky LS
   title: Tool and Symbol in Child Development
   year: 1930
+  domain: Psychology
+  bibtex: |
+    @article{vygotsky1994tool,
+      title={Tool and symbol in child development},
+      author={Vygotsky, Lev},
+      journal={The vygotsky reader},
+      year={1994},
+      publisher={Blackwell}
+    }
+
 - abstract: "There is an overwhelming archeological and genetic evidence that modern\
     \ speech apparatus was acquired by hominins by 600,000 years ago1. On the other\
     \ hand, artifacts signifying modern imagination, such as (1) composite figurative\
@@ -85,7 +129,7 @@ papers:
     \ of imagination. Modern children not exposed to recursive language in early childhood\
     \ never acquire the type of active constructive imagination called Prefrontal\
     \ Synthesis (PFS). Unlike vocabulary and grammar acquisition, which can be learned\
-    \ throughout one\u2019s lifetime, there is a strong critical period for the development\
+    \ throughout one's lifetime, there is a strong critical period for the development\
     \ of PFS and individuals not exposed to recursive language in early childhood\
     \ can never acquire PFS as adults. Their language will always lack understanding\
     \ of spatial prepositions and recursion that depend on the PFS ability. In a similar\
@@ -102,26 +146,37 @@ papers:
     \ and acquisition of PFS around 70,000 years ago."
   authors: Vyshedskiy A
   pdfurl: https://www.biorxiv.org/content/10.1101/166520v9.full.pdf
+  domain: Psychology
   title: "Language Evolution to Revolution: the Leap From Rich-Vocabulary Non-Recursive\
     \ Communication System to Recursive Language 70,000 Years Ago Was Associated with\
     \ Acquisition of a Novel Component of Imagination, Called Prefrontal Synthesis,\
     \ Enabled By a Mutation that Slowed Down the Prefrontal Cortex Maturation Simultaneously\
-    \ in Two or More Children \u2013 the Romulus and Remus Hypothesis"
+    \ in Two or More Children---the Romulus and Remus Hypothesis"
   year: 2019
+  bibtex: |
+    @article{vyshedskiy2019language,
+      title={Language evolution to revolution: the leap from rich-vocabulary non-recursive communication system to recursive language 70,000 years ago was associated with acquisition of a novel component of imagination, called Prefrontal Synthesis, enabled by a mutation that slowed down the prefrontal cortex maturation simultaneously in two or more children--the Romulus and Remus hypothesis},
+      author={Vyshedskiy, Andrey},
+      journal={bioRxiv},
+      pages={166520},
+      year={2019},
+      publisher={Cold Spring Harbor Laboratory}
+    }
+
 - abstract: "If you could become the shadow of a 2- to 8-year-old, furtively tagging\
     \ along as the child goes about his or her daily activities, you would notice\
-    \ a curious form of language behavior\u2014remarks in which the child seems to\
+    \ a curious form of language behavior---remarks in which the child seems to\
     \ talk to himself or herself or to no one in particular. This speech-to-self occurs\
-    \ frequently. It can surface in virtually any of the child\u2019s pursuits\u2014\
+    \ frequently. It can surface in virtually any of the child's pursuits---\
     during fantasy play, drawing and painting, building with blocks, tackling academic\
     \ tasks, idly passing the time of day, and quieting down before naptime or nightly\
     \ sleep. Researchers call this spontaneous, self-directed talk private speech.\
     \ Unlike adults, who self-consciously talk to themselves only in solitary moments,\
     \ young children freely use private speech in public. So at ease are preschool\
     \ and primary-school children in speaking to themselves in front of others that\
-    \ on observing this behavior, many adults question its normalcy! \u201CConfused,\u201D\
-    \ \u201Ctouched,\u201D and \u201Cstrange\u201D are among the descriptors I have\
-    \ heard them apply to self-talking children, generalizing from \u201Ccrazy people,\u201D\
+    \ on observing this behavior, many adults question its normalcy! 'Confused,'\
+    \ 'touched,' and 'strange' are among the descriptors I have\
+    \ heard them apply to self-talking children, generalizing from 'crazy people,'\
     \ who not only speak aloud to fantasized audiences but also act improperly in\
     \ a great many ways because they are indifferent to their social surroundings.\
     \ To be sure, talking to oneself in the midst of a roomful of people is not acceptable\
@@ -130,34 +185,47 @@ papers:
     \ ages of 3 and 10 are observed in classrooms, private speech makes up as much\
     \ as 20 percent to 60 percent of their language. Why do young children engage\
     \ in it so frequently? To grasp the significance of private speech in the life\
-    \ of the child, let\u2019s begin by looking at it in ourselves. When are you most\
+    \ of the child, let's begin by looking at it in ourselves. When are you most\
     \ likely to talk out loud to yourself? In response to this question, most adults\
     \ say they engage in audible self-talk when they face cognitive, emotional, or\
-    \ social challenges. Here are some self-reports: \u2022 \u201CAt the end of a\
-    \ busy day, when I\u2019m tired and distracted, I sometimes find myself looking\
+    \ social challenges. Here are some self-reports: 'At the end of a\
+    \ busy day, when I'm tired and distracted, I sometimes find myself looking\
     \ for an important document, for my keys, or even for where I parked my car. "
   authors: Berk LE
+  domain: Psychology
   title: Why Children Talk to Themselves
   year: 1994
-- abstract: "Whether it\u2019s brusque, convincing, fraught with emotion, or dripping\
-    \ with innuendo, language is fundamentally a tool for conveying meaning \u2014\
+  bibtex: |
+    @article{berk1994children,
+      title={Why children talk to themselves},
+      author={Berk, Laura E},
+      journal={Scientific American},
+      volume={271},
+      number={5},
+      pages={78--83},
+      year={1994},
+      publisher={JSTOR}
+    }
+
+- abstract: "Whether it's brusque, convincing, fraught with emotion, or dripping\
+    \ with innuendo, language is fundamentally a tool for conveying meaning---\
     \ a uniquely human magic trick in which you vibrate your vocal cords to make your\
-    \ innermost thoughts pop up in someone else\u2019s mind. You can use it to talk\
-    \ about all sorts of things \u2014 from your new labradoodle puppy to the expansive\
-    \ gardens at Versailles, from Roger Federer\u2019s backhand to things that don\u2019\
+    \ innermost thoughts pop up in someone else's mind. You can use it to talk\
+    \ about all sorts of things---from your new labradoodle puppy to the expansive\
+    \ gardens at Versailles, from Roger Federer's backhand to things that don'\
     t exist at all, like flying pigs. And when you talk, your listener fills in lots\
-    \ of details you didn\u2019t mention \u2014 the curliness of the dog\u2019s fur\
-    \ or the vast statuary on the grounds of the French palace. What\u2019s the trick\
+    \ of details you didn't mention---the curliness of the dog's fur\
+    \ or the vast statuary on the grounds of the French palace. What's the trick\
     \ behind this magic? How does meaning work?In Louder than Words, cognitive scientist\
-    \ Benjamin Bergen draws together a decade\u2019s worth of research in psychology,\
+    \ Benjamin Bergen draws together a decade's worth of research in psychology,\
     \ linguistics, and neuroscience to offer a new theory of how our minds make meaning.\
     \ When we hear words and sentences, Bergen contends, we engage the parts of our\
     \ brain that we use for perception and action, repurposing these evolutionarily\
     \ older networks to create simulations in our minds. These embodied simulations,\
-    \ as they\u2019re called, are what makes it possible for us to become better baseball\
+    \ as they're called, are what makes it possible for us to become better baseball\
     \ players by merely visualizing a well-executed swing; what allows us to remember\
     \ which cupboard the diapers are in without looking, and what makes it so hard\
-    \ to talk on a cell phone while we\u2019re driving on the highway. Meaning is\
+    \ to talk on a cell phone while we're driving on the highway. Meaning is\
     \ more than just knowing definitions of words, as others have previously argued.\
     \ In understanding language, our brains engage in a creative process of constructing\
     \ rich mental worlds in which we see, hear, feel, and act.Through whimsical examples\
@@ -166,8 +234,16 @@ papers:
     \ language, Louder than Words will profoundly change how you read, speak, and\
     \ listen. "
   authors: Bergen BK
+  domain: Linguistics
   title: 'Louder Than Words: The New Science of How the Mind Makes Meaning'
   year: 2012
+  bibtex: |
+    @book{bergen2012louder,
+      title={Louder than words: The new science of how the mind makes meaning},
+      author={Bergen, Benjamin K},
+      year={2012},
+      publisher={Basic Books}
+    }
 - abstract: Using words to label categories is a true human universal. In addition
     to their public function in communication, labels may also serve private functions
     in shaping how concepts are represented. The present work explored the effects
@@ -177,11 +253,22 @@ papers:
     an especially important role in shaping representations of entities whose perceptual
     features alone are insufficient for reliable classification.
   authors: Lupyan G
+  domain: Linguistics
   pdfurl: http://sapir.psych.wisc.edu/papers/NCPW9-chapter_revised.pdf
   title: 'Carving Nature at Its Joints and Carving Joints into Nature: How Labels
     Augment Category Representations'
   year: 2005
-- abstract: "Much of human communication Involves language\u2014a system of communication\
+  bibtex: |
+    @incollection{lupyan2005carving,
+      title={Carving nature at its joints and carving joints into nature: How labels augment category representations},
+      author={Lupyan, Gary},
+      booktitle={Modeling Language, Cognition And Action},
+      pages={87--96},
+      year={2005},
+      publisher={World Scientific}
+    }
+
+- abstract: "Much of human communication Involves language---a system of communication\
     \ qualitatively different from those used by other animals. In this chapter, I\
     \ focus on a fundamental property of language: referring to objects with labels\
     \ (e.g., using the word \"chair\" to refer to a chair). What consequences does\
@@ -196,9 +283,21 @@ papers:
     \ A connectionist model of \"language augmented thought\" provides a computational\
     \ account of how labels may augment cognitive and perceptual processing."
   authors: Lupyan G
+  domain: Linguistics
   pdfurl: http://sapir.psych.wisc.edu/papers/lupyan_2012_languageAugmentedThought.pdf
   title: What Do Words Do? Toward a Theory of Language-Augmented Thought
   year: 2012
+  bibtex: |
+    @incollection{lupyan2012words,
+      title={What do words do? Toward a theory of language-augmented thought},
+      author={Lupyan, Gary},
+      booktitle={Psychology of learning and motivation},
+      volume={57},
+      pages={255--297},
+      year={2012},
+      publisher={Elsevier}
+    }
+
 - abstract: Human cognitive abilities are remarkable. We easily go beyond what is
     perceptually available to reason about abstract systems. Our cognitive ability
     to adapt to a vast range of environments, and even to alter our environment to
@@ -206,26 +305,50 @@ papers:
     that we are now poised to exterminate most of our former predators, and must use
     our ingenuity to preserve a few. Indeed, for many theorists, the sophistication
     of adult human reasoning defies any explanation based on learning.
-  authors: Gentner D,Loewenstein J
+  authors: Gentner D, Loewenstein J
+  domain: Psychology
   pdfurl: https://loewenstein.web.illinois.edu/papers/GentnerLoewenstein02.pdf
   title: Relational Language and Relational Thought
   year: 2002
+  bibtex: |
+    @incollection{gentner2002relational,
+      title={Relational language and relational thought},
+      author={Gentner, Dedre and Loewenstein, Jeffrey},
+      booktitle={Language, literacy, and cognitive development},
+      pages={101--138},
+      year={2002},
+      publisher={Psychology Press}
+    }
+
 - abstract: "A central question in human development is how young children gain knowledge\
     \ so fast. We propose that analogical generalization drives much of this early\
     \ learning and allows children to generate new abstractions from experience. In\
     \ this paper, we review evidence for analogical generalization in both children\
-    \ and adults. We discuss how analogical processes interact with the child\u2019\
+    \ and adults. We discuss how analogical processes interact with the child'\
     s changing knowledge base to predict the course of learning, from conservative\
     \ to domain-general understanding. This line of research leads to challenges to\
     \ existing assumptions about learning. It shows that (a) it is not enough to consider\
     \ the distribution of examples given to learners; one must consider the processes\
     \ learners are applying; (b) contrary to the general assumption, maximizing variability\
     \ is not always the best route for maximizing generalization and transfer."
-  authors: Gentner D,Hoyos C
+  authors: Gentner D, Hoyos C
   pdfurl: https://groups.psych.northwestern.edu/gentner/papers/GentnerHoyos_2017-AnalogyAbstraction.pdf
   title: Analogy and Abstraction
   year: 2017
-- abstract: "The pioneering linguist Benjamin Whorf (1897\u20131941) grasped the relationship\
+  domain: Psychology
+  bibtex: |
+    @article{gentner2017analogy,
+      title={Analogy and abstraction},
+      author={Gentner, Dedre and Hoyos, Christian},
+      journal={Topics in cognitive science},
+      volume={9},
+      number={3},
+      pages={672--693},
+      year={2017},
+      publisher={Wiley Online Library}
+    }
+
+- abstract: "The pioneering linguist Benjamin Whorf (1897--1941) grasped the relationship\
     \ between human language and human thinking: how language can shape our innermost\
     \ thoughts. His basic thesis is that our perception of the world and our ways\
     \ of thinking about it are deeply influenced by the structure of the languages\
@@ -233,28 +356,77 @@ papers:
     \ the Maya, Hopi, and Shawnee languages as well as more general reflections on\
     \ language and meaning."
   authors: Whorf BL
+  domain: Linguistics
   title: 'Language, Thought, and Reality: Selected Writings of Benjamin Lee Whorf'
   year: 1956
-- authors: Rumelhart DE,Smolensky P,McClelland JL,Hinton G
+  bibtex: |
+    @article{whorf1956language,
+      title={Language, thought, and reality: selected writings of….(Edited by John B. Carroll.).},
+      author={Whorf, Benjamin Lee},
+      year={1956},
+      publisher={Technology Press of MIT}
+    }
+
+- authors: Rumelhart DE, Smolensky P, McClelland JL, Hinton G
   pdfurl: https://stanford.edu/~jlmcc/papers/PDP/Chapter14.pdf
   title: Sequential Thought Processes in Pdp Models
   year: 1986
+  domain: Artificial Intelligence
+  bibtex: |
+    @article{rumelhart1986sequential,
+      title={Sequential thought processes in PDP models},
+      author={Rumelhart, David E and Smolensky, Paul and McClelland, James L and Hinton, G},
+      journal={Parallel distributed processing: explorations in the microstructures of cognition},
+      volume={2},
+      pages={3--57},
+      year={1986}
+    }
+
 - abstract: "The now-classic Metaphors We Live By changed our understanding of metaphor\
     \ and its role in language and the mind. Metaphor, the authors explain, is a fundamental\
     \ mechanism of mind, one that allows us to use what we know about our physical\
     \ and social experience to provide understanding of countless other subjects.\
     \ Because such metaphors structure our most basic understandings of our experience,\
-    \ they are \u201Cmetaphors we live by\u201D\u2014metaphors that can shape our\
+    \ they are 'metaphors we live by'---metaphors that can shape our\
     \ perceptions and actions without our ever noticing them."
-  authors: Lakoff G,Johnson M
+  authors: Lakoff G, Johnson M
+  domain: Linguistics
   title: Metaphors We Live By
   year: 2008
+  bibtex: |
+    @book{lakoff2008metaphors,
+      title={Metaphors we live by},
+      author={Lakoff, George and Johnson, Mark},
+      year={2008},
+      publisher={University of Chicago press}
+    }
+
 - authors: Hesse M
   title: The Cognitive Claims of Metaphor
+  domain: Philosophy
   year: 1988
+  bibtex: |
+    @article{hesse1988cognitive,
+      title={The cognitive claims of metaphor},
+      author={Hesse, Mary},
+      journal={The journal of speculative philosophy},
+      pages={1--16},
+      year={1988},
+      publisher={JSTOR}
+    }
+
 - authors: Dennett DC
   title: Consciousness Explained
   year: 1993
+  domain: Philosophy
+  bibtex: |
+    @book{dennett1993consciousness,
+      title={Consciousness explained},
+      author={Dennett, Daniel C},
+      year={1993},
+      publisher={Penguin uk}
+    }
+
 - abstract: 'Embodied agents use bodily actions and environmental interventions to
     make the world a better place to think in. Where does language fit into this emerging
     picture of the embodied, ecologically efficient agent? One useful way to approach
@@ -267,9 +439,22 @@ papers:
     that are themselves proper objects of perception, manipulation, and (further)
     thought. '
   authors: Clark A
+  domain: Philosophy
   pdfurl: http://matt.colorado.edu/teaching/highcog/readings/c6.pdf
   title: Language, Embodiment, and the Cognitive Niche
   year: 2006
+  bibtex: |
+    @article{clark2006language,
+      title={Language, embodiment, and the cognitive niche},
+      author={Clark, Andy},
+      journal={Trends in cognitive sciences},
+      volume={10},
+      number={8},
+      pages={370--374},
+      year={2006},
+      publisher={Elsevier}
+    }
+
 - abstract: "This paper explores a variety of different versions of the thesis that\
     \ natural language is involved in human thinking. It distinguishes amongst strong\
     \ and weak forms of this thesis, dismissing some as implausibly strong and others\
@@ -283,7 +468,7 @@ papers:
     \ thinking, but argues that this cannot be its most fundamental cognitive role.\
     \ The idea is then proposed that natural language is the medium for nondomain-specific\
     \ thinking, serving to integrate the outputs of a variety of domain-specific conceptual\
-    \ faculties (or central-cognitive \u201Cquasimodules\u201D). Recent experimental\
+    \ faculties (or central-cognitive 'quasimodules'). Recent experimental\
     \ evidence in support of this idea is reviewed and the implications of the idea\
     \ are discussed, especially for our conception of the architecture of human cognition.\
     \ Finally, some further kinds of evidence which might serve to corroborate or\
@@ -294,10 +479,34 @@ papers:
   authors: Carruthers P
   title: Modularity, Language, and the Flexibility of Thought
   year: 2002
+  domain: Philosophy
+  bibtex: |
+    @article{carruthers2002modularity,
+      title={Modularity, language, and the flexibility of thought},
+      author={Carruthers, Peter},
+      journal={Behavioral and Brain Sciences},
+      volume={25},
+      number={6},
+      pages={705},
+      year={2002},
+      publisher={Cambridge University Press}
+    }
+
 - authors: Clark A
   pdfurl: https://era.ed.ac.uk/bitstream/handle/1842/1311/magic.pdf?sequence=1&isAllowed=y
   title: 'Magic Words: How Language Augments Human Computation'
   year: 1998
+  domain: Philosophy
+  bibtex: |
+    @incollection{clark2012magic,
+      title={Magic words: how language augments hum an computation},
+      author={Clark, Andy and Toribio, Josefa},
+      booktitle={Language and Meaning in Cognitive Science},
+      pages={33--51},
+      year={2012},
+      publisher={Routledge}
+    }
+
 - abstract: "A growing body of evidence suggests that cognition is embodied and grounded.\
     \ Abstract concepts, though, remain a significant theoretical challenge. A number\
     \ of researchers have proposed that language makes an important contribution to\
@@ -308,34 +517,60 @@ papers:
     \ that recognizes the flexible, multimodal and task-related nature of action,\
     \ emotion and perception systems. On this view, language is an ontogenetically\
     \ disruptive cognitive technology that expands our conceptual reach. This article\
-    \ is part of the theme issue \u2018Varieties of abstract concepts: development,\
-    \ use and representation in the brain\u2019."
+    \ is part of the theme issue 'Varieties of abstract concepts: development,\
+    \ use and representation in the brain'."
   authors: Dove G
   pdfurl: https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2017.0135
   title: 'Language as a Disruptive Technology: Abstract Concepts, Embodiment and the
     Flexible Mind'
+  domain: Philosophy
   year: 2018
-- abstract: "First, this article proposes a minimal de\uFB01nition of embodiment that\
+  bibtex: |
+    @article{dove2018language,
+      title={Language as a disruptive technology: abstract concepts, embodiment and the flexible mind},
+      author={Dove, Guy},
+      journal={Philosophical Transactions of the Royal Society B: Biological Sciences},
+      volume={373},
+      number={1752},
+      pages={20170135},
+      year={2018},
+      publisher={The Royal Society}
+    }
+
+- abstract: "First, this article proposes a minimal definition of embodiment that\
     \ can be applied across animals and artefacts. We discuss the potential contributions\
-    \ of this operational de\uFB01nition with respect to assessing and measuring the\
-    \ degree of embodiment in different biological and arti\uFB01cial systems. Second,\
-    \ we outline how this de\uFB01nition can be extended to lead to the particular\
+    \ of this operational definition with respect to assessing and measuring the\
+    \ degree of embodiment in different biological and artificial systems. Second,\
+    \ we outline how this definition can be extended to lead to the particular\
     \ notion of social embeddedness. Socially embedded agents are structurally coupled\
     \ with their social environment, in that their sensorimotor activity is grounded\
     \ in the social environment that the agent is surrounded by. Lastly, based on\
-    \ research in the social sciences on human\u2013human interaction, we discuss\
-    \ perceptual requirements for interaction-aware robotic agents\u2014agents whose\
-    \ identi\uFB01cation and interpretation of the (social) environment is facilitated\
-    \ by awareness of the structure of agent\u2013agent interactions (including humans\
-    \ \u2018in the loop\u2019). We suggest relevant concepts and heuristics that can\
+    \ research in the social sciences on human--human interaction, we discuss\
+    \ perceptual requirements for interaction-aware robotic agents---agents whose\
+    \ identification and interpretation of the (social) environment is facilitated\
+    \ by awareness of the structure of agent--agent interactions (including humans\
+    \ in the loop'). We suggest relevant concepts and heuristics that can\
     \ contribute to studies of degrees of embodiment of robots that interact with\
     \ social environments. Manipulating and systematically investigating these heuristics\
     \ permits variation of the degree of embodiment of such interaction-aware robots."
-  authors: Dautenhahn K,Ogden B,Quick T
+  authors: Dautenhahn K, Ogden B, Quick T
+  domain: Artificial Intelligence
   pdfurl: https://d1wqtxts1xzle7.cloudfront.net/48748580/s1389-0417_2802_2900050-520160911-19986-i59edm-with-cover-page-v2.pdf?Expires=1655380273&Signature=U~u1dgegyHIhWthvy1~HPvwnv7lqa5oZuaIoz1B4oBKeuqzIJWSAM2SBkgHywYxrfRBtlnO2hk3L5ROkCdlTUM3gxx4mKDfZKZwzmdmC2PrY14p-8~bvcoyiL7n39gYOQRHF9zkckXBKAYCIuhwHe1F7U3029-Q~1iT-s2t9VWKXLaRrkLUFb53FMFwBlo3mdsvL2XgjEswtGp0EoSYSZ~R3HFIhHEJkJSId4CwsWoRiW1wDIIeHCLXm1djaT1E7Tes6c45BZ~9xLk-wuAU2Xcbujqpdi2lB1cw25HRRLNdbZX3J8jE1A968XTdmfiWl6BcLzv8j9bWPV9Q27YqkJg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
-  title: "From Embodied to Socially Embedded Agents \u2013 Implications for Interaction-Aware\
+  title: "From Embodied to Socially Embedded Agents---Implications for Interaction-Aware\
     \ Robots"
   year: 2002
+  bibtex: |
+    @article{dautenhahn2002embodied,
+      title={From embodied to socially embedded agents--implications for interaction-aware robots},
+      author={Dautenhahn, Kerstin and Ogden, Bernard and Quick, Tom},
+      journal={Cognitive Systems Research},
+      volume={3},
+      number={3},
+      pages={397--428},
+      year={2002},
+      publisher={Elsevier}
+    }
+
 - abstract: This paper proposes a research direction to study the development of 'artificial
     social intelligence' of autonomous robots which should result in 'individualized
     robot societies'. The approach is highly inspired by the 'social intelligence
@@ -354,10 +589,23 @@ papers:
     The paper outlines in what kind of applications and for what kind of robot group
     structures social intelligence might be advantageous.
   authors: Dautenhahn K
+  domain: Artificial Intelligence
   pdfurl: https://static.aminer.org/pdf/PDF/001/049/467/getting_to_know_each_other_artificial_social_intelligence_for_autonomous.pdf
-  title: "Getting to Know Each Other\u2014Artificial Social Intelligence for Autonomous\
+  title: "Getting to Know Each Other---Artificial Social Intelligence for Autonomous\
     \ Robots"
   year: 1995
+  bibtex: |
+    @article{dautenhahn1995getting,
+      title={Getting to know each other—artificial social intelligence for autonomous robots},
+      author={Dautenhahn, Kerstin},
+      journal={Robotics and autonomous systems},
+      volume={16},
+      number={2-4},
+      pages={333--356},
+      year={1995},
+      publisher={Elsevier}
+    }
+
 - abstract: 'The paper discusses two prominent theories of cognitive development and
     relates them to experiments in social robotics. The main difference between these
     theories lies in the different views on the relationship between a child and its
@@ -372,9 +620,20 @@ papers:
     Another experiment addresses dynamic coupling of movements between a human and
     a mobile robot. Here, emergent robot-human interaction dynamics are influenced
     by the temporal coordination between the robot''s and the human''s movements.'
-  authors: Dautenhahn K,Billard A
+  authors: Dautenhahn K, Billard A
   title: Studying Robot Social Cognition Within a Developmental Psychology Framework
   year: 1999
+  domain: Artificial Intelligence
+  bibtex: |
+    @inproceedings{dautenhahn1999studying,
+      title={Studying robot social cognition within a developmental psychology framework},
+      author={Dautenhahn, Kerstin and Billard, Aude},
+      booktitle={1999 Third European Workshop on Advanced Mobile Robots (Eurobot'99). Proceedings (Cat. No. 99EX355)},
+      pages={187--194},
+      year={1999},
+      organization={IEEE}
+    }
+
 - abstract: "This article addresses a classical question: Can a machine use language\
     \ meaningfully and if so, how can this be achieved? The first part of the paper\
     \ is mainly philosophical. Since meaning implies intentionality on the part of\
@@ -383,7 +642,7 @@ papers:
     \ that intentionality is an exclusively biological property (pace e.g. Searle)\
     \ and thus a robot with bodily structures, interaction patterns and development\
     \ similar to those of human beings would constitute a system possibly capable\
-    \ of meaning \u2013 a conjecture supported through a Wittgenstein-inspired thought\
+    \ of meaning---a conjecture supported through a Wittgenstein-inspired thought\
     \ experiment. The second part of the paper focuses on the empirical and constructive\
     \ questions. Departing from the principle of epigenesis stating that during every\
     \ state of development new structure arises on the basis of existing structure\
@@ -396,10 +655,23 @@ papers:
     \ of epigenetic development, robotogenesis could possibly recapitulate ontogenesis,\
     \ leading to the emergence of intentionality, consciousness and meaning."
   authors: Zlatev J
+  domain: Artificial Intelligence
   pdfurl: http://www.chaz.org/Courses/Sapir_Whorf/Epigenesis/Epigenesis_of_Meaning-Zlatev-2001.pdf
   title: The Epigenesis of Meaning in Human Beings, and Possibly in Robots
   year: 2001
-- abstract: "The concept of \u201Csocial situatedness,\u201D that is, the idea that\
+  bibtex: |
+    @article{zlatev2001epigenesis,
+      title={The epigenesis of meaning in human beings, and possibly in robots},
+      author={Zlatev, Jordan},
+      journal={Minds and machines},
+      volume={11},
+      number={2},
+      pages={155--195},
+      year={2001},
+      publisher={Springer}
+    }
+
+- abstract: "The concept of 'social situatedness,' that is, the idea that\
     \ the development of individual intelligence requires a social (and cultural)\
     \ embedding, has recently received much attention in cognitive science and artificial\
     \ intelligence research, in particular work on social or epigenetic robotics.\
@@ -408,15 +680,28 @@ papers:
     \ This article therefore is aimed at giving an overview of his cognitive development\
     \ theory and a discussion of its relation to more recent work in primatology and\
     \ socially situated artificial intelligence, in particular humanoid robotics."
-  authors: Lindblom J,Ziemke T
+  authors: Lindblom J, Ziemke T
+  domain: Artificial Intelligence
   pdfurl: http://apophenia.wdfiles.com/local--files/start/vygotskian%20robotics.pdf
   title: 'Social Situatedness of Natural and Artificial Intelligence: Vygotsky and
     Beyond'
   year: 2003
+  bibtex: |
+    @article{lindblom2003social,
+      title={Social situatedness of natural and artificial intelligence: Vygotsky and beyond},
+      author={Lindblom, Jessica and Ziemke, Tom},
+      journal={Adaptive Behavior},
+      volume={11},
+      number={2},
+      pages={79--96},
+      year={2003},
+      publisher={SAGE Publications}
+    }
+
 - abstract: "The standard view of classical cognitive science stated that cognition\
     \ consists in the manipulation of language-like structures according to formal\
-    \ rules. Since cognition is \u2018linguistic\u2019 in itself, according to this\
-    \ view language is just a complex communication system and does not in\uFB02uence\
+    \ rules. Since cognition is linguistic in itself, according to this\
+    \ view language is just a complex communication system and does not influence\
     \ cognitive processes in any substantial way. This view has been criticized from\
     \ several perspectives and a new framework (Embodied Cognition) has emerged that\
     \ considers cognitive processes as non-symbolic and heavily dependent on the dynamical\
@@ -428,14 +713,27 @@ papers:
     \ cognitive functions in the highlevel functions that are characteristic of human\
     \ cognition. In order to do that, we review some computational models that substantiate\
     \ this view with respect to categorization and memory. Since these models are\
-    \ based on a very rudimentary form of non-syntactic \u2018language\u2019 we argue\
+    \ based on a very rudimentary form of non-syntactic language, we argue\
     \ that the use of language as a cognitive tool might have been an early discovery\
     \ in hominid evolution, and might have played a substantial role in the evolution\
     \ of language itself."
-  authors: Mirolli M,Parisi D
+  authors: Mirolli M, Parisi D
   pdfurl: http://laral.istc.cnr.it/Pubblicazioni/English/Journals/2009mirolli_parisi.pdf
   title: Language as a Cognitive Tool
+  domain: Artificial Intelligence
   year: 2009
+  bibtex: |
+    @article{mirolli2009language,
+      title={Language as a cognitive tool},
+      author={Mirolli, Marco and Parisi, Domenico},
+      journal={Minds and machines},
+      volume={19},
+      number={4},
+      pages={517--528},
+      year={2009},
+      publisher={Springer}
+    }
+
 - abstract: 'This article surveys reinforcement learning approaches in social robotics.
     Reinforcement learning is a framework for decision-making problems in which an
     agent interacts through trial-and-error with its environment to discover an optimal
@@ -459,10 +757,23 @@ papers:
     have thus far received less attention is also given in the paper. Thus, this paper
     aims to become a starting point for researchers interested in using and applying
     reinforcement learning methods in this particular research field. '
-  authors: Akalin N,Loutfi A
+  authors: Akalin N, Loutfi A
+  domain: Artificial Intelligence
   pdfurl: https://mdpi-res.com/d_attachment/sensors/sensors-21-01292/article_deploy/sensors-21-01292-v2.pdf?version=1613972378
   title: Reinforcement Learning Approaches in Social Robotics
   year: 2021
+  bibtex: |
+    @article{akalin2021reinforcement,
+      title={Reinforcement learning approaches in social robotics},
+      author={Akalin, Neziha and Loutfi, Amy},
+      journal={Sensors},
+      volume={21},
+      number={4},
+      pages={1292},
+      year={2021},
+      publisher={MDPI}
+    }
+
 - abstract: Creativity is an important evolutionary adaptation that allows humans
     to think original thoughts, to find solutions to problems that have never been
     encountered before, and to fundamentally change the way we live. Recently, one
@@ -477,15 +788,54 @@ papers:
   title: 'Construction Grammar and Creativity: Evolution, Psychology, and Cognitive
     Science'
   year: 2020
+  domain: Linguistics
+  bibtex: |
+    @article{hoffmann2020construction,
+      title={Construction grammar and creativity: Evolution, psychology, and cognitive science},
+      author={Hoffmann, Thomas},
+      journal={Cognitive semiotics},
+      volume={13},
+      number={1},
+      year={2020},
+      publisher={De Gruyter Mouton}
+    }
+
+
 - authors: Fodor JA
   title: The Language of Thought
   year: 1975
+  domain: Philosophy
+  bibtex: |
+    @book{fodor1975language,
+      title={The language of thought},
+      author={Fodor, Jerry A},
+      volume={5},
+      year={1975},
+      publisher={Harvard university press}
+    }
 - authors: Wittgenstein L
   title: Philosophical Investigations
   year: 1953
+  domain: Philosophy
+  bibtex: |
+    @book{wittgenstein2010philosophical,
+      title={Philosophical investigations},
+      author={Wittgenstein, Ludwig},
+      year={2010},
+      publisher={John Wiley \& Sons}
+    }
 - authors: McDowell J
   title: Mind and World
   year: 1996
+  domain: Philosophy
+  bibtex: |
+    @book{mcdowell1996mind,
+      title={Mind and world},
+      author={McDowell, John},
+      year={1996},
+      publisher={Harvard University Press}
+    }
+
 - abstract: 'Recent research has documented specific linkages between language and
     conceptual organization in the developing child. However, most of the evidence
     for these linkages derives from children who have made significant linguistic
@@ -507,31 +857,55 @@ papers:
     and object categories. These results are interpreted within a developmental and
     cross-linguistic account of the emergence of linkages between linguistic and conceptual
     organization. '
-  authors: Waxman SR,Markow DB
+  authors: Waxman SR, Markow DB
+  domain: Psychology
   title: 'Words as Invitations to Form Categories: Evidence from 12-to 13-Month-Old
     Infants'
   year: 1995
+  bibtex: |
+    @article{waxman1995words,
+      title={Words as invitations to form categories: Evidence from 12-to 13-month-old infants},
+      author={Waxman, Sandra R and Markow, Dana B},
+      journal={Cognitive psychology},
+      volume={29},
+      number={3},
+      pages={257--302},
+      year={1995},
+      publisher={Elsevier}
+    }
+
 - abstract: "Verb learning seems especially difficult for children learning many languages,\
     \ at least relative to nouns. Many have speculated because this is because verbs\
     \ refer to relational events that are components of much more complex events.\
-    \ Consider a buying-selling event. If the child hears the verb \u201Cbuy\u201D\
+    \ Consider a buying-selling event. If the child hears the verb 'buy'\
     , does it mean sell, get, handover, give money, or perhaps smile? By this view,\
     \ a key problem in learning verb is parsing complex events into relevant components\
     \ and then attending to the right components. This study presents evidence that\
-    \ parents use sound symbolism to direct children\u2019s attention to the proper\
+    \ parents use sound symbolism to direct children's attention to the proper\
     \ component and that children readily use that information when learning new verbs.\
     \ The study specifically compares two languages that differ in their sound-symbolic\
-    \ words\u2014Japanese language with its class of mimetics that are heavily used\
+    \ words---Japanese language with its class of mimetics that are heavily used\
     \ in speech to children and English language which is commonly considered to be\
     \ a less sound symbolic language. The results indicate that both Japanese- and\
     \ English-speaking parents use sound symbolism to teach verbs and that both children\
     \ learning Japanese- and English benefit from this symbolism. This work provides\
     \ new insight into verb learning, the nature of the input, and the universal aspects\
     \ of sound symbolism in language use."
-  authors: Yoshida H,Smith LB
+  authors: Yoshida H, Smith LB
+  domain: Psychology
   pdfurl: https://escholarship.org/content/qt0x80838r/qt0x80838r.pdf
   title: Sound Symbolism and Early Word Learning in Two Languages
   year: 2003
+  bibtex: |
+    @inproceedings{yoshida2003sound,
+      title={Sound symbolism and early word learning in two languages},
+      author={Yoshida, Hanako and Smith, Linda B},
+      booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},
+      volume={25},
+      number={25},
+      year={2003}
+    }
+
 - abstract: Humans are unique in their range of environments and in the nature and
     diversity of their behavioral adaptations. While a variety of local genetic adaptations
     exist within our species, it seems certain that the same basic genetic endowment
@@ -543,13 +917,45 @@ papers:
     when such culturally evolved adaptations arise requires understanding of both
     the evolution of the psychological mechanisms that underlie human social learning
     and the evolutionary (population) dynamics of cultural systems.
-  authors: Henrich J,McElreath R
+  authors: Henrich J, McElreath R
   pdfurl: https://henrich.fas.harvard.edu/files/henrich/files/henrich_mcelreath_2003.pdf
-  title: The evolution of cultural evolution
+  title: The Evolution of Cultural Evolution
+  domain: Social Sciences
   year: 2003
+  bibtex: |
+    @article{henrich2003evolution,
+      title={The evolution of cultural evolution},
+      author={Henrich, Joseph and McElreath, Richard},
+      journal={Evolutionary Anthropology: Issues, News, and Reviews: Issues, News, and Reviews},
+      volume={12},
+      number={3},
+      pages={123--135},
+      year={2003},
+      publisher={Wiley Online Library}
+    }
+
+
 - authors: Carruthers P
   title: 'Thinking in Language?: Evolution and a Modularist Possibility'
   year: 1998
+  domain: Philosophy
+  bibtex: |
+    @incollection{carruthers1998thinking,
+      title={Thinking in language?: evolution and a modularist possibility},
+      author={Carruthers, Peter},
+      year={1998},
+      publisher={Cambridge University Press}
+    }
+
 - authors: Sokolov A
   title: Inner Speech and Thought
   year: 1972
+  domain: Psychology
+  bibtex: |
+    @book{sokolov2012inner,
+      title={Inner speech and thought},
+      author={Sokolov, Aleksandr},
+      year={2012},
+      publisher={Springer Science \& Business Media}
+    }
+

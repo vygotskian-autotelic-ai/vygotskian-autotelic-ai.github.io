@@ -6,10 +6,10 @@ docs:
 # - pagetitle: Agents
 #   url: /vygo-agents
 
-- pagetitle: Papers
+- pagetitle: VAAI Papers
   url: /papers
 
-- pagetitle: Background
+- pagetitle: Cross-Displinary Background
   url: /relatedworks
 
 - pagetitle: Tutorials
