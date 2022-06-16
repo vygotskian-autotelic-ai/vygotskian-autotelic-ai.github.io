@@ -64,21 +64,4 @@ layout: default
 <h2 class="page-title"> Large Language Models and Autonomous Agents </h2>
 <hr>
 
-<br>
-<ul>
-    <li> IMAGINE</li>
-    <li> GANGSTR, DESCTR</li>
-    <li> L-AMIGO? / Novel ID mention that these teacher/student approach can be internalized to become autotelic</li>
-    <li> ... </li>
-</ul>
-
-<h2 class="page-title"> Useful Techniques and Challenges </h2>
-<hr>
-<ul>
-    <li> Mutli-modal Learning (architectures, env)?</li>
-    <li> Systematic Genearlization (definition, papers that study it)</li>
-    <li> LLM for planning</li>
-    <li> Extracting commonsense knowledge from LLMS</li> 
-    <li> ... </li>
-</ul>
 {:/}

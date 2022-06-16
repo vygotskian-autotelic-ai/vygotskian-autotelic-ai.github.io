@@ -50,11 +50,7 @@ Click on the paper's title to display the list of authors, the abstract, a link 
 		<blockquote>
 		{% if item.authors %}
 		   <h4 class="blockquote-content">Authors:</h4>
-		   <ul>
-		   {% for author in item.authors %}
-		      <li>{{ author }}</li>
-		   {% endfor %}
-		   </ul>
+			{{ item.authors }}
 		{% endif %}
 
 		{% if item.abstract %}

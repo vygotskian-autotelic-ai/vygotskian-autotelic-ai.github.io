@@ -21,11 +21,7 @@ This list of {{ site.data.background.papers.size }} papers contains inter-discip
 		<blockquote>
 		{% if item.authors %}
 		   <h4 class="blockquote-content">Authors:</h4>
-		   <ul>
-		   {% for author in item.authors %}
-		      <li>{{ author }}</li>
-		   {% endfor %}
-		   </ul>
+		   {{item.authors}}
 		{% endif %}
 		{% if item.abstract %}
 		   <h4 class="blockquote-content" >Abstract:</h4>
