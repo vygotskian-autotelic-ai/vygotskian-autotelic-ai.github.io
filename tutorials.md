@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h3 class="page-title">Towards Vygotskain Autotelic Agents</h3>
+<h3 class="page-title">Towards Vygotskian Autotelic Agents</h3>
 
 <p>Cédric Colas's PhD Defense</p>
 
@@ -11,7 +11,7 @@ layout: default
 </div>
 
 
-<h3 class="page-title">Vygotskain Autotelic Agents</h3>
+<h3 class="page-title">Vygotskian Autotelic Agents</h3>
 
 <p>Tristan Karch's invited talk to the Mind at Play workshop at CogSci2021</p>
 
