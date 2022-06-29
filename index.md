@@ -39,8 +39,8 @@ To know more, check the [perspective paper](https://arxiv.org/abs/2206.01134).
 On this webpage, we provide a [list of papers](/papers) connected to VAAI. We also provide a list of inter-desciplinary background papers [here](/relatedworks) 
 
 <h3 class="page-title"> Main Contributors</h3>
-- Tristan Karch, INRIA.
-- Cédric Colas, INRIA.
+- [Tristan Karch](http://tristankarch.com/), INRIA.
+- [Cédric Colas](https://ccolas.github.io/), INRIA.
 
 
 <h3 class="page-title"> Contributing </h3>
